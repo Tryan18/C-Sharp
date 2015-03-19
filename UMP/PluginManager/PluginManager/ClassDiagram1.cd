@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="PluginManager.UpdateEventArgs">
+    <Position X="5.75" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>interfaces.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PluginManager.UpdatePluginInfo">
+    <Position X="4" Y="2.5" Width="4" />
+    <TypeIdentifier>
+      <FileName>interfaces.cs</FileName>
+      <HashCode>AAAAACAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PluginManager.PluginEventArgs">
+    <Position X="0.5" Y="0.5" Width="5" />
+    <TypeIdentifier>
+      <FileName>interfaces.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PluginManager.PluginFile">
+    <Position X="0.5" Y="2.5" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>interfaces.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PluginManager.IPClient">
+    <Position X="8.25" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <FileName>interfaces.cs</FileName>
+      <HashCode>AAAAAAAAAAAkAAAAAAAAAAAAAAAACKAAAAAgAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PluginManager.IPServer">
+    <Position X="4" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <FileName>interfaces.cs</FileName>
+      <HashCode>AAAAQAAAAAAkAAAAAAAAAAAAAAAACIAAAQAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PluginManager.IPrimaryClient">
+    <Position X="4.25" Y="4.5" Width="3.5" />
+    <TypeIdentifier>
+      <FileName>interfaces.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PluginManager.IPrimaryServer">
+    <Position X="0.5" Y="4.5" Width="3.5" />
+    <TypeIdentifier>
+      <FileName>interfaces.cs</FileName>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PluginManager.IMain">
+    <Position X="8.25" Y="2.5" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>interfaces.cs</FileName>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="PluginManager.RemoteServerRecieveHandler">
+    <Position X="9.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>interfaces.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="PluginManager.RemoteServerSend">
+    <Position X="9.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>interfaces.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

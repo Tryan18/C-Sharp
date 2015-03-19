@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMP_Server", "UMP_Server\UMP_Server.csproj", "{8964FC40-A1B3-4523-B226-F710F4DB5561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMP_Client", "UMP_Client\UMP_Client.csproj", "{FDFDBBF2-1AE3-4194-8F75-02EC297D25E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMP", "UMP\UMP\UMP.csproj", "{B75D8F7F-54AF-4D5B-BE44-5C02D1F24608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginManager", "PluginManager\PluginManager\PluginManager.csproj", "{4656ECDF-2D4C-4B51-8126-5D0A4AB213D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiPlayerUMP", "MultiPlayerUMP\MultiPlayerUMP\MultiPlayerUMP.csproj", "{FFA7E72A-196C-46E3-9152-12FBA1CFAE96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiMemory", "MultiMemory\MultiMemory\MultiMemory.csproj", "{53944D35-BC9E-4DCD-92B6-74E22A288B43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8964FC40-A1B3-4523-B226-F710F4DB5561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8964FC40-A1B3-4523-B226-F710F4DB5561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8964FC40-A1B3-4523-B226-F710F4DB5561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8964FC40-A1B3-4523-B226-F710F4DB5561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFDBBF2-1AE3-4194-8F75-02EC297D25E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFDBBF2-1AE3-4194-8F75-02EC297D25E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFDBBF2-1AE3-4194-8F75-02EC297D25E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFDBBF2-1AE3-4194-8F75-02EC297D25E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B75D8F7F-54AF-4D5B-BE44-5C02D1F24608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75D8F7F-54AF-4D5B-BE44-5C02D1F24608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B75D8F7F-54AF-4D5B-BE44-5C02D1F24608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B75D8F7F-54AF-4D5B-BE44-5C02D1F24608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4656ECDF-2D4C-4B51-8126-5D0A4AB213D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4656ECDF-2D4C-4B51-8126-5D0A4AB213D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4656ECDF-2D4C-4B51-8126-5D0A4AB213D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4656ECDF-2D4C-4B51-8126-5D0A4AB213D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA7E72A-196C-46E3-9152-12FBA1CFAE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA7E72A-196C-46E3-9152-12FBA1CFAE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA7E72A-196C-46E3-9152-12FBA1CFAE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA7E72A-196C-46E3-9152-12FBA1CFAE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53944D35-BC9E-4DCD-92B6-74E22A288B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53944D35-BC9E-4DCD-92B6-74E22A288B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53944D35-BC9E-4DCD-92B6-74E22A288B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53944D35-BC9E-4DCD-92B6-74E22A288B43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

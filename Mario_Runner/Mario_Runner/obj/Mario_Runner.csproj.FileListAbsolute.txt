@@ -1,0 +1,8 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_Runner\Mario_Runner\obj\Debug\Mario_Runner.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_Runner\Mario_Runner\obj\Debug\Mario_Runner.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_Runner\Mario_Runner\bin\Debug\Mario_Runner.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_Runner\Mario_Runner\bin\Debug\Mario_Runner.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_Runner\Mario_Runner\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_Runner\Mario_Runner\obj\Debug\Mario_Runner.Form1.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_Runner\Mario_Runner\obj\Debug\Mario_Runner.Properties.Resources.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_Runner\Mario_Runner\obj\Debug\Mario_Runner.csproj.GenerateResource.Cache

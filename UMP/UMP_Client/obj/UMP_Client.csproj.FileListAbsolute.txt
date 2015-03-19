@@ -1,0 +1,15 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\bin\Debug\UMP_Client.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\bin\Debug\UMP_Client.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\obj\Debug\UMP_Client.Form1.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\obj\Debug\UMP_Client.Properties.Resources.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\obj\Debug\UMP_Client.csproj.GenerateResource.Cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\obj\Debug\UMP_Client.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\obj\Debug\UMP_Client.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\obj\Debug\UMP_Client.Login.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\bin\Debug\UMP.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\bin\Debug\UMP.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\bin\Debug\CC_Client.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\bin\Debug\CC_Client.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\bin\Debug\PluginManager.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\bin\Debug\PluginManager.pdb

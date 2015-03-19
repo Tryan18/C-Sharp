@@ -1,0 +1,16 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\Memory2009\Memory2009\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\Memory2009\Memory2009\obj\Debug\Memory2009.Form1.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\Memory2009\Memory2009\obj\Debug\Memory2009.Properties.Resources.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\Memory2009\Memory2009\obj\Debug\Memory2009.csproj.GenerateResource.Cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\Memory2009\Memory2009\bin\Debug\Memory2009.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\Memory2009\Memory2009\bin\Debug\Memory2009.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\Memory2009\Memory2009\obj\Debug\Memory2009.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\Memory2009\Memory2009\obj\Debug\Memory2009.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Memory2009\Memory2009\obj\Debug\Memory2009.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Memory2009\Memory2009\obj\Debug\Memory2009.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Memory2009\Memory2009\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Memory2009\Memory2009\obj\Debug\Memory2009.Form1.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Memory2009\Memory2009\obj\Debug\Memory2009.Properties.Resources.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Memory2009\Memory2009\obj\Debug\Memory2009.csproj.GenerateResource.Cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Memory2009\Memory2009\bin\Debug\Memory2009.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Memory2009\Memory2009\bin\Debug\Memory2009.pdb

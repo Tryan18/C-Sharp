@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PuzzleBattle.BattleField.resources
+obj\Debug\PuzzleBattle.Menu.resources
+obj\Debug\PuzzleBattle.Properties.Resources.resources
+obj\Debug\PuzzleBattle.csproj.GenerateResource.Cache
+bin\Debug\PuzzleBattle.exe
+bin\Debug\PuzzleBattle.pdb
+obj\Debug\PuzzleBattle.exe
+obj\Debug\PuzzleBattle.pdb

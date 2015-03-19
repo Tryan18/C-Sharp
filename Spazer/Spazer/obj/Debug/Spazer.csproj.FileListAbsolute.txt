@@ -1,0 +1,8 @@
+C:\Users\terence\Desktop\C# Student Projects\Spazer\Spazer\obj\Debug\Spazer.exe
+C:\Users\terence\Desktop\C# Student Projects\Spazer\Spazer\obj\Debug\Spazer.pdb
+C:\Users\terence\Desktop\C# Student Projects\Spazer\Spazer\bin\Debug\Spazer.exe
+C:\Users\terence\Desktop\C# Student Projects\Spazer\Spazer\bin\Debug\Spazer.pdb
+C:\Users\terence\Desktop\C# Student Projects\Spazer\Spazer\obj\Debug\Spazer.csprojResolveAssemblyReference.cache
+C:\Users\terence\Desktop\C# Student Projects\Spazer\Spazer\obj\Debug\Spazer.Form1.resources
+C:\Users\terence\Desktop\C# Student Projects\Spazer\Spazer\obj\Debug\Spazer.Properties.Resources.resources
+C:\Users\terence\Desktop\C# Student Projects\Spazer\Spazer\obj\Debug\Spazer.csproj.GenerateResource.Cache

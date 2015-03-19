@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="CC_Client.ClientBeheer">
+    <Position X="5.75" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <FileName>ClientBeheer.cs</FileName>
+      <HashCode>AQAAAAAAAAAIIQQAAAAAAAAAAAAAAYAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CC_Client.CommunicatieManager">
+    <Position X="0.5" Y="0.5" Width="5" />
+    <TypeIdentifier>
+      <FileName>CommunicatieManager.cs</FileName>
+      <HashCode>AAgAAAAABAAAIBAAAABCAIMACAACAMoIAwAAAAAgAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CC_Client.Out" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>Out.cs</FileName>
+      <HashCode>AgAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CC_Client.PluginManager" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.25" Width="4" />
+    <TypeIdentifier>
+      <FileName>PluginManager.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAACCOAAQAQAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <Lollipop Position="0.242" Collapsed="true" />
+  </Class>
+  <Class Name="CC_Client.UpdateManager">
+    <Position X="10.75" Y="1.5" Width="4.25" />
+    <TypeIdentifier>
+      <FileName>UpdateManager.cs</FileName>
+      <HashCode>AAACAwAAAAAIAAQAEBAAAEAAAAEUAQIAAAAAAAEgIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

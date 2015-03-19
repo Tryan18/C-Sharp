@@ -1,0 +1,8 @@
+C:\Users\terence\Desktop\BTSYNC\C#\Memory2009\Memory2009\obj\Debug\Memory2009.exe
+C:\Users\terence\Desktop\BTSYNC\C#\Memory2009\Memory2009\obj\Debug\Memory2009.pdb
+C:\Users\terence\Desktop\BTSYNC\C#\Memory2009\Memory2009\bin\Debug\Memory2009.exe
+C:\Users\terence\Desktop\BTSYNC\C#\Memory2009\Memory2009\bin\Debug\Memory2009.pdb
+C:\Users\terence\Desktop\BTSYNC\C#\Memory2009\Memory2009\obj\Debug\Memory2009.csprojResolveAssemblyReference.cache
+C:\Users\terence\Desktop\BTSYNC\C#\Memory2009\Memory2009\obj\Debug\Memory2009.Form1.resources
+C:\Users\terence\Desktop\BTSYNC\C#\Memory2009\Memory2009\obj\Debug\Memory2009.Properties.Resources.resources
+C:\Users\terence\Desktop\BTSYNC\C#\Memory2009\Memory2009\obj\Debug\Memory2009.csproj.GenerateResource.Cache

@@ -1,0 +1,12 @@
+bin\Debug\MultiMemory.dll
+bin\Debug\MultiMemory.pdb
+bin\Debug\MultiPlayerUMP.dll
+bin\Debug\PluginManager.dll
+bin\Debug\MultiPlayerUMP.pdb
+bin\Debug\PluginManager.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MultiMemory.dll
+obj\Debug\MultiMemory.pdb
+obj\Debug\MultiMemory.Properties.Resources.resources
+obj\Debug\MultiMemory.csproj.GenerateResource.Cache
+obj\Debug\MultiMemory.Form1.resources

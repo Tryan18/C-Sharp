@@ -1,0 +1,8 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Easy_Picture_Viewer\Easy_Picture_Viewer\bin\Debug\Easy_Picture_Viewer.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Easy_Picture_Viewer\Easy_Picture_Viewer\bin\Debug\Easy_Picture_Viewer.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Easy_Picture_Viewer\Easy_Picture_Viewer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Easy_Picture_Viewer\Easy_Picture_Viewer\obj\Debug\Easy_Picture_Viewer.Form1.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Easy_Picture_Viewer\Easy_Picture_Viewer\obj\Debug\Easy_Picture_Viewer.Properties.Resources.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Easy_Picture_Viewer\Easy_Picture_Viewer\obj\Debug\Easy_Picture_Viewer.csproj.GenerateResource.Cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Easy_Picture_Viewer\Easy_Picture_Viewer\obj\Debug\Easy_Picture_Viewer.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Easy_Picture_Viewer\Easy_Picture_Viewer\obj\Debug\Easy_Picture_Viewer.pdb

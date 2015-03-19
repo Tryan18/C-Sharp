@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Knetter.Form1.resources
+obj\Debug\Knetter.Properties.Resources.resources
+obj\Debug\Knetter.csproj.GenerateResource.Cache
+bin\Debug\Knetter.exe
+bin\Debug\Knetter.pdb
+obj\Debug\Knetter.exe
+obj\Debug\Knetter.pdb

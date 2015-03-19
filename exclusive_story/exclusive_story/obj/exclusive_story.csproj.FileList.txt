@@ -1,0 +1,12 @@
+bin\Debug\exclusive_story.exe
+bin\Debug\exclusive_story.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\exclusive_story.AboutMe.resources
+obj\Debug\exclusive_story.Form1.resources
+obj\Debug\exclusive_story.Properties.Resources.resources
+obj\Debug\exclusive_story.csproj.GenerateResource.Cache
+obj\Debug\exclusive_story.exe
+obj\Debug\exclusive_story.pdb
+bin\Debug\Interop.WMPLib.dll
+obj\Debug\Interop.WMPLib.dll
+obj\Debug\exclusive_story.csproj.ResolveComReference.cache

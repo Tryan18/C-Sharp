@@ -1,0 +1,2 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\PizzaTimer\PizzaTimer\obj\Debug\PizzaTimer.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\PizzaTimer\PizzaTimer\obj\Debug\PizzaTimer.pdb

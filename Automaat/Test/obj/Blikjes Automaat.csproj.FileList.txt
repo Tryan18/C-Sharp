@@ -1,0 +1,12 @@
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Test.Automaat.resources
+obj\Release\Test.Properties.Resources.resources
+obj\Release\Blikjes Automaat.csproj.GenerateResource.Cache
+bin\Release\Blikjes Automaat.exe.manifest
+bin\Release\Blikjes Automaat.application
+bin\Release\Blikjes Automaat.exe
+bin\Release\Blikjes Automaat.pdb
+obj\Release\Blikjes Automaat.exe.manifest
+obj\Release\Blikjes Automaat.application
+obj\Release\Blikjes Automaat.exe
+obj\Release\Blikjes Automaat.pdb

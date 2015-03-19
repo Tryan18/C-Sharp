@@ -1,0 +1,8 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Knetter\Knetter\obj\Debug\Knetter.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Knetter\Knetter\obj\Debug\Knetter.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Knetter\Knetter\bin\Debug\Knetter.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Knetter\Knetter\bin\Debug\Knetter.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Knetter\Knetter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Knetter\Knetter\obj\Debug\Knetter.Form1.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Knetter\Knetter\obj\Debug\Knetter.Properties.Resources.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Knetter\Knetter\obj\Debug\Knetter.csproj.GenerateResource.Cache

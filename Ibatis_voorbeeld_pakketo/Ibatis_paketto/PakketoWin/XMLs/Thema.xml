@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="Thema" xmlns="http://ibatis.apache.org/mapping">
+  <alias>
+    <typeAlias alias="Thema" type="Pakketo.Thema" />
+  </alias>
+
+  <parameterMaps>
+    <parameterMap id="NewThemaParameters" class="Thema">
+      <parameter property="Naam" column="thema_naam"/>
+      <parameter property="Patroon" column="thema_patroon"/>
+    </parameterMap>
+  </parameterMaps>
+  
+  <statements>
+    <select id="selectThema" parameterClass="int" resultClass="Thema">
+      select * from thema where thema_id = #value#
+    </select>
+    
+    <insert id="NewThema" parameterMap="NewThemaParameters" resultClass="int">
+      <selectKey property="ID" type="post" resultClass="int">
+        SELECT @@IDENTITY AS value
+      </selectKey>
+      <generate table="thema"/>
+    </insert>
+  </statements>
+
+</sqlMap>

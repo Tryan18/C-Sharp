@@ -1,0 +1,9 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\CC_Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\CC_Client\bin\Debug\CC_Client.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\CC_Client\bin\Debug\CC_Client.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\CC_Client\bin\Debug\UMP.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\CC_Client\bin\Debug\UMP.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\CC_Client\obj\Debug\CC_Client.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\CC_Client\obj\Debug\CC_Client.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\CC_Client\bin\Debug\PluginManager.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Client\CC_Client\bin\Debug\PluginManager.pdb

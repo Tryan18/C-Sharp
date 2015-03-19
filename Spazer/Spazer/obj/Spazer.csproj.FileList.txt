@@ -1,0 +1,8 @@
+obj\Debug\Spazer.exe
+obj\Debug\Spazer.pdb
+bin\Debug\Spazer.exe
+bin\Debug\Spazer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Spazer.Form1.resources
+obj\Debug\Spazer.Properties.Resources.resources
+obj\Debug\Spazer.csproj.GenerateResource.Cache

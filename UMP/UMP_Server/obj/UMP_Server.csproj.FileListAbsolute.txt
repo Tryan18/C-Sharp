@@ -1,0 +1,15 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\bin\Debug\UMP_Server.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\bin\Debug\UMP_Server.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\obj\Debug\UMP_Server.Properties.Resources.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\obj\Debug\UMP_Server.csproj.GenerateResource.Cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\obj\Debug\UMP_Server.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\obj\Debug\UMP_Server.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\obj\Debug\UMP_Server.MainServer.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\bin\Debug\UMP.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\bin\Debug\UMP.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\bin\Debug\CC_Server.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\bin\Debug\CC_Server.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\bin\Debug\PluginManager.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\bin\Debug\PluginManager.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP_Server\bin\Debug\UMP_Server.exe.config

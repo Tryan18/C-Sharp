@@ -1,0 +1,5 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ReferencePath>C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP\UMP\bin\Debug\</ReferencePath>
+  </PropertyGroup>
+</Project>

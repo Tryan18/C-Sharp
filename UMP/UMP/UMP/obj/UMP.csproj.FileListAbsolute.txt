@@ -1,0 +1,7 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP\UMP\bin\Debug\UMP.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP\UMP\bin\Debug\UMP.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP\UMP\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP\UMP\obj\Debug\UMP.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP\UMP\obj\Debug\UMP.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP\UMP\bin\Debug\PluginManager.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\UMP\UMP\UMP\bin\Debug\PluginManager.pdb

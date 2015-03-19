@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Mario_ScreenSaver.Properties.Resources.resources
+obj\Debug\Mario_ScreenSaver.csproj.GenerateResource.Cache
+bin\Debug\Mario_ScreenSaver.exe
+bin\Debug\Mario_ScreenSaver.pdb
+obj\Debug\Mario_ScreenSaver.exe
+obj\Debug\Mario_ScreenSaver.pdb
+obj\Debug\Mario_ScreenSaver.Mario_Form.resources
+obj\Debug\Mario_ScreenSaver.Paddo_Form.resources
+obj\Debug\Mario_ScreenSaver.Message.resources

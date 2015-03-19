@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NineRays.ILOMD.Options.Project>
+  <AssemblyList>
+    <NineRays.ILOMD.Options.AssemblyFileName>
+      <ObfuscationOptions>
+        <NineRays.ILOMD.Options.Options>
+          <Optimizer>
+            <NineRays.ILOMD.Options.OptimizationOptions>
+            </NineRays.ILOMD.Options.OptimizationOptions>
+          </Optimizer>
+          <SoftwareWatermark>
+          </SoftwareWatermark>
+        </NineRays.ILOMD.Options.Options>
+      </ObfuscationOptions>
+      <Name>.\Mario_Runner.exe</Name>
+    </NineRays.ILOMD.Options.AssemblyFileName>
+  </AssemblyList>
+  <StrongNameKeyFile>
+  </StrongNameKeyFile>
+  <LayoutInfo>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Layout&gt;
+  &lt;Window Guid="be707328-c269-433a-a4c2-bc8afacb9e11" FloatingSize="550, 400" FloatingLocation="-1, -1" Docked="1" PopupSize="0" DockedSize="200" /&gt;
+  &lt;Window Guid="3e5bc80a-9467-40c8-b7f4-b208bc71ebb5" FloatingSize="550, 400" FloatingLocation="-1, -1" Docked="1" PopupSize="0" DockedSize="200" /&gt;
+  &lt;Window Guid="a1e8f18b-ab1a-43ef-b516-2f4e91d71d22" FloatingSize="550, 400" FloatingLocation="-1, -1" Docked="1" PopupSize="0" DockedSize="200" /&gt;
+  &lt;Window Guid="c5d7f485-7cc6-448e-9d4a-51755a39285a" FloatingSize="550, 400" FloatingLocation="-1, -1" Docked="1" PopupSize="0" DockedSize="200" /&gt;
+  &lt;Window Guid="1ab51f96-7428-4b68-9f25-0af0d8415f26" FloatingSize="250, 400" FloatingLocation="-1, -1" Docked="1" PopupSize="0" DockedSize="309" /&gt;
+  &lt;Window Guid="16bbe2d2-5504-4cd4-82f2-6737d26493b8" FloatingSize="250, 400" FloatingLocation="-1, -1" Docked="1" PopupSize="0" DockedSize="309" /&gt;
+  &lt;Window Guid="d011ae1a-b131-40cb-8ce1-4454c2694fcd" FloatingSize="250, 400" FloatingLocation="-1, -1" Docked="1" PopupSize="0" DockedSize="309" /&gt;
+  &lt;Container Dock="3" ContentSize="309"&gt;
+    &lt;SplitLayoutSystem WorkingSize="309, 638" SplitMode="0"&gt;
+      &lt;ControlLayoutSystem WorkingSize="309, 638" Collapsed="0" SelectedControl="1ab51f96-7428-4b68-9f25-0af0d8415f26"&gt;
+        &lt;Controls&gt;
+          &lt;Control Guid="1ab51f96-7428-4b68-9f25-0af0d8415f26" /&gt;
+          &lt;Control Guid="d011ae1a-b131-40cb-8ce1-4454c2694fcd" /&gt;
+          &lt;Control Guid="16bbe2d2-5504-4cd4-82f2-6737d26493b8" /&gt;
+        &lt;/Controls&gt;
+      &lt;/ControlLayoutSystem&gt;
+    &lt;/SplitLayoutSystem&gt;
+  &lt;/Container&gt;
+&lt;/Layout&gt;</LayoutInfo>
+</NineRays.ILOMD.Options.Project>

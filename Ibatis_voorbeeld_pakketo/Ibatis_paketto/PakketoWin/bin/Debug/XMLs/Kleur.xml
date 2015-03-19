@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="Kleur" xmlns="http://ibatis.apache.org/mapping">
+  <alias>
+    <typeAlias alias="Kleur" type="Pakketo.Kleur" />
+  </alias>
+
+  <parameterMaps>
+    <parameterMap id="NewKleurParameters" class="Kleur">
+      <parameter property="Naam" column="kleur_naam"/>
+      <parameter property="HexCode" column="kleur_hexcode"/>
+    </parameterMap>
+  </parameterMaps>
+  
+  <statements>
+    <select id="selectKleur" parameterClass="int" resultClass="Kleur">
+      select * from kleur where kleur_id = #value#
+    </select>
+
+    <insert id="NewKleur" parameterMap="NewKleurParameters" resultClass="int">
+      <selectKey property="ID" type="post" resultClass="int">
+        SELECT @@IDENTITY AS value
+      </selectKey>
+      <generate table="kleur"/>
+    </insert>
+  </statements>
+
+</sqlMap>

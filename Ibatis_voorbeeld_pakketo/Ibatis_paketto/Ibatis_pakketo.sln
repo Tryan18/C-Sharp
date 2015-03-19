@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PakketoWin", "PakketoWin\PakketoWin.csproj", "{D524379A-7D99-4DD4-8AD0-1E742185FBCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pakketo", "Pakketo\Pakketo.csproj", "{BFD26A47-BFB1-490E-A150-1680F310B26D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D524379A-7D99-4DD4-8AD0-1E742185FBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D524379A-7D99-4DD4-8AD0-1E742185FBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D524379A-7D99-4DD4-8AD0-1E742185FBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D524379A-7D99-4DD4-8AD0-1E742185FBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD26A47-BFB1-490E-A150-1680F310B26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD26A47-BFB1-490E-A150-1680F310B26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD26A47-BFB1-490E-A150-1680F310B26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD26A47-BFB1-490E-A150-1680F310B26D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

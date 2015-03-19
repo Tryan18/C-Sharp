@@ -1,0 +1,5 @@
+bin\Debug\Grid.dll
+bin\Debug\Grid.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Grid.dll
+obj\Debug\Grid.pdb

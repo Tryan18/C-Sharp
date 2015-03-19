@@ -1,0 +1,9 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Tetris\Tetris\bin\Debug\Tetris.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Tetris\Tetris\bin\Debug\Tetris.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Tetris\Tetris\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Tetris\Tetris\obj\Debug\Tetris.Form1.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Tetris\Tetris\obj\Debug\Tetris.Properties.Resources.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Tetris\Tetris\obj\Debug\Tetris.UserControl1.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Tetris\Tetris\obj\Debug\Tetris.csproj.GenerateResource.Cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Tetris\Tetris\obj\Debug\Tetris.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Tetris\Tetris\obj\Debug\Tetris.pdb

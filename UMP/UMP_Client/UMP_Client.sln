@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMP_Client", "UMP_Client.csproj", "{FDFDBBF2-1AE3-4194-8F75-02EC297D25E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC_Client", "CC_Client\CC_Client.csproj", "{4BB8DBC4-FA3C-48F6-8F12-9CE2B6FC797C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDFDBBF2-1AE3-4194-8F75-02EC297D25E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFDBBF2-1AE3-4194-8F75-02EC297D25E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFDBBF2-1AE3-4194-8F75-02EC297D25E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFDBBF2-1AE3-4194-8F75-02EC297D25E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB8DBC4-FA3C-48F6-8F12-9CE2B6FC797C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB8DBC4-FA3C-48F6-8F12-9CE2B6FC797C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB8DBC4-FA3C-48F6-8F12-9CE2B6FC797C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB8DBC4-FA3C-48F6-8F12-9CE2B6FC797C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

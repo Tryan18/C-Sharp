@@ -1,0 +1,277 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3EBF7AD4-54B4-47D5-90D0-7564EFEB1923}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <StartupObject>GUI.Program</StartupObject>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Nevron.Presentation, Version=7.3.26.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc" />
+    <Reference Include="Nevron.System, Version=7.3.26.12, Culture=neutral, PublicKeyToken=6a987feae5e496fd" />
+    <Reference Include="Nevron.UI.WinForm.Docking, Version=7.3.26.12, Culture=neutral, PublicKeyToken=446d8963349a628a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UI_Klant_Beheer\UI_klant_beheer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Klant_Beheer\UI_klant_beheer.Designer.cs">
+      <DependentUpon>UI_klant_beheer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Klant_Beheer\UI_nieuw_wijzig_klant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Klant_Beheer\UI_nieuw_wijzig_klant.designer.cs">
+      <DependentUpon>UI_nieuw_wijzig_klant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Kleuren_Beheer\UI_kleuren_beheer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Kleuren_Beheer\UI_kleuren_beheer.Designer.cs">
+      <DependentUpon>UI_kleuren_beheer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Kleuren_Beheer\UI_kleur_toevoegen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Kleuren_Beheer\UI_kleur_toevoegen.Designer.cs">
+      <DependentUpon>UI_kleur_toevoegen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Pakket Beheer\UI_klant_selecteren.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Pakket Beheer\UI_klant_selecteren.Designer.cs">
+      <DependentUpon>UI_klant_selecteren.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Pakket Beheer\UI_nieuw_wijzig_pakket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Pakket Beheer\UI_nieuw_wijzig_pakket.designer.cs">
+      <DependentUpon>UI_nieuw_wijzig_pakket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_hoofd_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_hoofd_menu.designer.cs">
+      <DependentUpon>UI_hoofd_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Producten_Beheer\UI_nieuw_wijzig_product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Producten_Beheer\UI_nieuw_wijzig_product.Designer.cs">
+      <DependentUpon>UI_nieuw_wijzig_product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UI_Klant_Beheer\UI_klant_beheer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UI_klant_beheer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Klant_Beheer\UI_nieuw_wijzig_klant.resx">
+      <DependentUpon>UI_nieuw_wijzig_klant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Kleuren_Beheer\UI_kleuren_beheer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UI_kleuren_beheer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Kleuren_Beheer\UI_kleur_toevoegen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UI_kleur_toevoegen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Pakket Beheer\UI_klant_selecteren.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UI_klant_selecteren.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Pakket Beheer\UI_nieuw_wijzig_pakket.resx">
+      <DependentUpon>UI_nieuw_wijzig_pakket.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_hoofd_menu.resx">
+      <DependentUpon>UI_hoofd_menu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Producten_Beheer\UI_nieuw_wijzig_product.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UI_nieuw_wijzig_product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_login_scherm.resx">
+      <DependentUpon>UI_login_scherm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Pakket Beheer\UI_pakket_beheer.resx">
+      <DependentUpon>UI_pakket_beheer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Producten_Beheer\UI_product_beheer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UI_product_beheer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Thema_Beheer\UI_thema_beheer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UI_thema_beheer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI_Thema_Beheer\UI_thema_toevoegen_wijzigen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UI_thema_toevoegen_wijzigen.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UI_login_scherm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_login_scherm.designer.cs">
+      <DependentUpon>UI_login_scherm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Pakket Beheer\UI_pakket_beheer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Pakket Beheer\UI_pakket_beheer.designer.cs">
+      <DependentUpon>UI_pakket_beheer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Producten_Beheer\UI_product_beheer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Producten_Beheer\UI_product_beheer.Designer.cs">
+      <DependentUpon>UI_product_beheer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Thema_Beheer\UI_thema_beheer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Thema_Beheer\UI_thema_beheer.Designer.cs">
+      <DependentUpon>UI_thema_beheer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI_Thema_Beheer\UI_thema_toevoegen_wijzigen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI_Thema_Beheer\UI_thema_toevoegen_wijzigen.Designer.cs">
+      <DependentUpon>UI_thema_toevoegen_wijzigen.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lollie.jpg" />
+    <None Include="Resources\pakket.jpg" />
+    <None Include="Resources\ADONIA_1_55.png" />
+    <None Include="Resources\ADONIA_1_48.png" />
+    <None Include="Resources\color.png" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\logoLogin.png" />
+    <None Include="Resources\pakketoLogo.jpg" />
+    <None Include="Resources\Project.png" />
+    <None Include="Resources\ADONIA_1_482.png" />
+    <None Include="Resources\dmc.ico" />
+    <Content Include="bin\Debug\plaatjes\geenafbeelding.jpg" />
+    <Content Include="Resources\scorched_earth_texture_8.jpg" />
+    <Content Include="SEPROC.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SEPROC_log.ldf">
+      <DependentUpon>SEPROC.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Yeti Box Drop %28Blue%29.png" />
+    <None Include="Resources\user.ico" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\user1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.1.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BU\BU\BU.csproj">
+      <Project>{F32C6678-B4CC-43B7-88CD-43B5B55FDABC}</Project>
+      <Name>BU</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CC\CC.csproj">
+      <Project>{EA8E7FB8-0945-4B8B-8203-C958B936EDED}</Project>
+      <Name>CC</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

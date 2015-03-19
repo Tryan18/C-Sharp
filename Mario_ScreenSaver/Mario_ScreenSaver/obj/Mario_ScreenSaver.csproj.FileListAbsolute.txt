@@ -1,0 +1,10 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_ScreenSaver\Mario_ScreenSaver\obj\Debug\Mario_ScreenSaver.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_ScreenSaver\Mario_ScreenSaver\obj\Debug\Mario_ScreenSaver.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_ScreenSaver\Mario_ScreenSaver\bin\Debug\Mario_ScreenSaver.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_ScreenSaver\Mario_ScreenSaver\bin\Debug\Mario_ScreenSaver.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_ScreenSaver\Mario_ScreenSaver\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_ScreenSaver\Mario_ScreenSaver\obj\Debug\Mario_ScreenSaver.Mario_Form.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_ScreenSaver\Mario_ScreenSaver\obj\Debug\Mario_ScreenSaver.Message.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_ScreenSaver\Mario_ScreenSaver\obj\Debug\Mario_ScreenSaver.Paddo_Form.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_ScreenSaver\Mario_ScreenSaver\obj\Debug\Mario_ScreenSaver.Properties.Resources.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\Mario_ScreenSaver\Mario_ScreenSaver\obj\Debug\Mario_ScreenSaver.csproj.GenerateResource.Cache

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="CC_Server.CommunicatieService">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <FileName>CommunicatieService.cs</FileName>
+      <HashCode>AAICAAAAAgAAIAQAAABCIAAACAACAMoIAgJAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CC_Server.Config">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Config.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAgAAAAAAIAAAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CC_Server.Out">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Out.cs</FileName>
+      <HashCode>AgAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CC_Server.PluginService" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <FileName>PluginService.cs</FileName>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAACCEAAAhQAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.179" Collapsed="true" />
+  </Class>
+  <Class Name="CC_Server.ServerBeheer">
+    <Position X="4" Y="3.5" Width="3.75" />
+    <TypeIdentifier>
+      <FileName>ServerBeheer.cs</FileName>
+      <HashCode>AAAAAAAAAUgAAAAkAAAAAAAAQAAAAAAgDBAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cs" />
+      <Field Name="ps" />
+      <Field Name="us" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CC_Server.UpdateService">
+    <Position X="9.75" Y="3.5" Width="3.5" />
+    <TypeIdentifier>
+      <FileName>UpdateService.cs</FileName>
+      <HashCode>AAAAAAAABAAAACAAAAAAAAAAAAAAAAIgABAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="CC_Server.PluginHandler" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PluginService.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="CC_Server.UpdateHandler" Collapsed="true">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UpdateService.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

@@ -1,0 +1,13 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MultiPaint.Game.resources
+obj\Debug\MultiPaint.SessionGame.resources
+obj\Debug\MultiPaint.Main.resources
+obj\Debug\MultiPaint.csproj.GenerateResource.Cache
+obj\Debug\MultiPaint.dll
+bin\Debug\MultiPaint.dll
+bin\Debug\MultiPaint.pdb
+bin\Debug\PluginManager.dll
+bin\Debug\PluginManager.pdb
+obj\Debug\MultiPaint.pdb
+bin\Debug\UMP.dll
+bin\Debug\UMP.pdb

@@ -1,0 +1,12 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\exclusive_story\exclusive_story\obj\Debug\exclusive_story.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\exclusive_story\exclusive_story\obj\Debug\exclusive_story.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\exclusive_story\exclusive_story\bin\Debug\exclusive_story.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\exclusive_story\exclusive_story\bin\Debug\exclusive_story.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\exclusive_story\exclusive_story\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\exclusive_story\exclusive_story\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\exclusive_story\exclusive_story\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\exclusive_story\exclusive_story\obj\Debug\exclusive_story.csproj.ResolveComReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\exclusive_story\exclusive_story\obj\Debug\exclusive_story.AboutMe.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\exclusive_story\exclusive_story\obj\Debug\exclusive_story.Form1.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\exclusive_story\exclusive_story\obj\Debug\exclusive_story.Properties.Resources.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\exclusive_story\exclusive_story\obj\Debug\exclusive_story.csproj.GenerateResource.Cache

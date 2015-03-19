@@ -1,0 +1,8 @@
+bin\Debug\PizzaTimer.exe
+bin\Debug\PizzaTimer.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PizzaTimer.Form1.resources
+obj\Debug\PizzaTimer.Properties.Resources.resources
+obj\Debug\PizzaTimer.csproj.GenerateResource.Cache
+obj\Debug\PizzaTimer.exe
+obj\Debug\PizzaTimer.pdb

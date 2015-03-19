@@ -1,0 +1,5 @@
+bin\Debug\PluginManager.dll
+bin\Debug\PluginManager.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PluginManager.dll
+obj\Debug\PluginManager.pdb

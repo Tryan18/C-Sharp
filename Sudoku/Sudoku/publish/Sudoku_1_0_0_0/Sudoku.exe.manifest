@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Sudoku.exe" version="1.0.0.0" publicKeyToken="14fd46df0df58d8b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Sudoku" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Sudoku.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="274432">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>mOLW8Vzjf/76+54MF2nttvmwZ+w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sudoku.exe" size="9113600">
+      <assemblyIdentity name="Sudoku" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>LLtbGL26v8iQ8pEMuRfbcXZ8zT4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=ZIPP-H1D7EEUHWL\Zap" issuerKeyHash="7be7397efa9d8b4cb7c9c706814e031644bd5ba3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Eo97Wp8Z4QKumUt7z+/rrstiEUc=</DigestValue></Reference></SignedInfo><SignatureValue>OTM2QxFfm89zURH2RZ4v7ShMswkIvYHbJWOFsJKAuaHKR9kLak+PDgzxLiw0W1XFqghW6WofAw66f1W5o5oDe4CluXAJ473K8KtKfMtvCoV6y+8N7PrZbG/AyS9xpHLdlfOo0YNGWs4eCwbB0U+WjgyLxqekQ6y15zGRMBlzYSc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s08mOiQe3zyYCnhs1uBr+8hNFMLt7s+aZYksLZKq8WHeeJjlqK1j0VVlsks4Im6gjBMMQzsgCG67e49ixc6vAyU9kWBKizHhT24vdvt7f72n94pk+ew5e4ncZYND+jbRAs3g8crGdfgUoPIEUU73gGbGt/sPhq6eizuyI5G+ATs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="471162cbaeebefcf7b4b99ae02e1199f5a7b8f12" Description="" Url=""><as:assemblyIdentity name="Sudoku.exe" version="1.0.0.0" publicKeyToken="14fd46df0df58d8b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZIPP-H1D7EEUHWL\Zap</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>R5m0nGj97A0dZt6BzCvmX9NxjeI=</DigestValue></Reference></SignedInfo><SignatureValue>B2D1vH1YKBrLT8euZuoe/IIzMt7xznjoCURLbLPF666DQ9AznI4NAVftM7q45ZqE+8QO+S/4kEhbaTI3i7hcyIcWui72vvfoV7RAt9tG+E9A376YSYivOI1VGBJEehxawyj/M0a/Ug2HcyOIz7w1u9VFuO61gJxbQicshtAXMMI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s08mOiQe3zyYCnhs1uBr+8hNFMLt7s+aZYksLZKq8WHeeJjlqK1j0VVlsks4Im6gjBMMQzsgCG67e49ixc6vAyU9kWBKizHhT24vdvt7f72n94pk+ew5e4ncZYND+jbRAs3g8crGdfgUoPIEUU73gGbGt/sPhq6eizuyI5G+ATs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUqgAwIBAgIQKZjEib5hFplKTRUAX9ix6jAJBgUrDgMCHQUAMDExLzAtBgNVBAMeJgBaAEkAUABQAC0ASAAxAEQANwBFAEUAVQBIAFcATABcAFoAYQBwMB4XDTA3MDIyMjA2MDAzNloXDTA4MDIyMjEyMDAzNlowMTEvMC0GA1UEAx4mAFoASQBQAFAALQBIADEARAA3AEUARQBVAEgAVwBMAFwAWgBhAHAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALNPJjokHt88mAp4bNbga/vITRTC7e7PmmWJLC2SqvFh3niY5aitY9FVZbJLOCJuoIwTDEM7IAhuu3uPYsXOrwMlPZFgSosx4U9uL3b7e3+9p/eKZPnsOXuJ3GWDQ/o20QLN4PHKxnX4FKDyBFFO94Bmxrf7D4aunos7siORvgE7AgMBAAEwCQYFKw4DAh0FAAOBgQB3LKELUNf91Y9Od5s8+dBxnmrdF4AKFtcxBeQW45A6WFtTQ6OAxTISW8VPQreSZm3FpYCF7kaZ3P++kQjFFhOeG3f7EjtHAgBpFYix9Z1BVmiMPMAzjren4FOkMrYOXjZLb7cai64CAXhKj5nUAs3YgrtKtz8Ig++A+rBsDpH5gA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

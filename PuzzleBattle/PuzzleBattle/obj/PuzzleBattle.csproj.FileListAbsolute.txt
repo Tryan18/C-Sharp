@@ -1,0 +1,9 @@
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\PuzzleBattle\PuzzleBattle\obj\Debug\PuzzleBattle.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\PuzzleBattle\PuzzleBattle\obj\Debug\PuzzleBattle.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\PuzzleBattle\PuzzleBattle\bin\Debug\PuzzleBattle.exe
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\PuzzleBattle\PuzzleBattle\bin\Debug\PuzzleBattle.pdb
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\PuzzleBattle\PuzzleBattle\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\PuzzleBattle\PuzzleBattle\obj\Debug\PuzzleBattle.BattleField.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\PuzzleBattle\PuzzleBattle\obj\Debug\PuzzleBattle.Menu.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\PuzzleBattle\PuzzleBattle\obj\Debug\PuzzleBattle.Properties.Resources.resources
+C:\Documents and Settings\Vizz\My Documents\Visual Studio 2005\Projects\C#\PuzzleBattle\PuzzleBattle\obj\Debug\PuzzleBattle.csproj.GenerateResource.Cache

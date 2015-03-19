@@ -1,0 +1,15 @@
+bin\Debug\GUI.exe
+bin\Debug\GUI.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\GUI.csproj.GenerateResource.Cache
+obj\Debug\GUI.exe.licenses
+obj\Debug\GUI.exe
+obj\Debug\GUI.pdb
+obj\Debug\GUI.Pakket_Beheren.resources
+obj\Debug\GUI.Properties.Resources.resources
+obj\Debug\GUI.GUIpakket_beheren.resources
+bin\Debug\SEPROC.mdf
+bin\Debug\SEPROC_log.LDF
+bin\Debug\GUI.exe.config
+obj\Debug\GUI.GUILogin_Scherm.resources
+obj\Debug\GUI.GUIvoorbeeld_pakket.resources

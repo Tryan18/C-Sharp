@@ -1,0 +1,14 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\CC.dll
+bin\Debug\CC.pdb
+bin\Debug\BU.dll
+bin\Debug\Castle.ActiveRecord.dll
+bin\Debug\Castle.Core.dll
+bin\Debug\Iesi.Collections.dll
+bin\Debug\log4net.dll
+bin\Debug\NHibernate.dll
+bin\Debug\Nullables.dll
+bin\Debug\Nullables.NHibernate.dll
+bin\Debug\BU.pdb
+obj\Debug\CC.dll
+obj\Debug\CC.pdb

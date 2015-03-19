@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="Product" xmlns="http://ibatis.apache.org/mapping">
+  <alias>
+    <typeAlias alias="Product" type="Pakketo.Product" />
+  </alias>
+
+  <parameterMaps>
+    <parameterMap id="NewProductParameters" class="Product">
+      <parameter property="Naam" column="product_naam"/>
+      <parameter property="Beschrijving" column="product_beschrijving"/>
+      <parameter property="Lengte" column="product_lengte"/>
+      <parameter property="Hoogte" column="product_hoogte"/>
+      <parameter property="Breedte" column="product_breedte"/>
+      <parameter property="Prijs" column="product_prijs"/>
+    </parameterMap>
+  </parameterMaps>
+  
+  <statements>
+    <select id="selectProducts" parameterClass="int" resultClass="Product">
+      select * from product where product_id in (Select pp_product_id from pakket_product where pp_pakket_id = #value#)
+    </select>
+
+    <select id="selectAllProducts" resultClass="Product">
+      select * from product
+    </select>
+
+    <insert id="insertProduct" parameterMap="NewProductParameters" resultClass="int">
+      <selectKey property="ID" type="post" resultClass="int">
+        SELECT @@IDENTITY AS value
+      </selectKey>
+      <generate table="product"/>
+    </insert>
+  </statements>
+  
+</sqlMap>

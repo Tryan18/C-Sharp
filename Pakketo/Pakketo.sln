@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "GUI\UI.csproj", "{3EBF7AD4-54B4-47D5-90D0-7564EFEB1923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BU", "BU\BU\BU.csproj", "{F32C6678-B4CC-43B7-88CD-43B5B55FDABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC", "CC\CC.csproj", "{EA8E7FB8-0945-4B8B-8203-C958B936EDED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EBF7AD4-54B4-47D5-90D0-7564EFEB1923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBF7AD4-54B4-47D5-90D0-7564EFEB1923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBF7AD4-54B4-47D5-90D0-7564EFEB1923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBF7AD4-54B4-47D5-90D0-7564EFEB1923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32C6678-B4CC-43B7-88CD-43B5B55FDABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32C6678-B4CC-43B7-88CD-43B5B55FDABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32C6678-B4CC-43B7-88CD-43B5B55FDABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32C6678-B4CC-43B7-88CD-43B5B55FDABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8E7FB8-0945-4B8B-8203-C958B936EDED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8E7FB8-0945-4B8B-8203-C958B936EDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8E7FB8-0945-4B8B-8203-C958B936EDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8E7FB8-0945-4B8B-8203-C958B936EDED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="Pakket" xmlns="http://ibatis.apache.org/mapping">
+  <alias>
+    <typeAlias alias="Pakket" type="Pakketo.Pakket" />
+  </alias>
+
+  
+  <resultMaps>
+    <resultMap id="pakket" class="Pakket">
+      <result property="ID" column="pakket_id"/>
+      <result property="Kleur" column="kleur_id" select="Kleur.selectKleur"/>
+      <result property="Naam" column="pakket_naam"/>
+      <result property="Breedte" column="pakket_breedte"/>
+      <result property="Hoogte" column="pakket_hoogte"/>
+      <result property="Lengte" column="pakket_lengte"/>
+      <result property="Prijs" column="pakket_prijs"/>
+      <result property="Thema" column="thema_id" select="Thema.selectThema"/>
+    </resultMap>
+  </resultMaps>
+
+  <statements>
+    <statement id="SelectPakket" parameterClass="int" resultMap="pakket">
+      select * from pakket 
+    </statement>
+
+    <insert id="insertPakket" parameterClass="Pakket" resultClass="int">
+
+      <selectKey property="ID" type="post" resultClass="int">
+        SELECT @@IDENTITY AS value
+      </selectKey>
+      
+      insert into pakket
+      (pakket_naam,pakket_breedte,pakket_hoogte,pakket_lengte,pakket_prijs,thema_id,kleur_id)
+      values
+      (#Naam#, #Breedte#,#Hoogte#, #Lengte#, #Prijs#, #Thema.ID#, #Kleur.ID#)
+    </insert>
+
+    <insert id="insertProductsToPakket" parameterClass="list">
+
+      
+      insert into pakket_product values
+        <iterate open="(" close=")" conjunction=",">
+          #[]#
+        </iterate>
+    </insert>
+  </statements>
+
+</sqlMap>

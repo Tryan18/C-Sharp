@@ -1,0 +1,2 @@
+C:\Users\terence\Desktop\BTSYNC\C#\Knetter\Knetter\obj\Debug\Knetter.exe
+C:\Users\terence\Desktop\BTSYNC\C#\Knetter\Knetter\obj\Debug\Knetter.pdb
