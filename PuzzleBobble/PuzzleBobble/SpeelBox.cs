@@ -8,6 +8,11 @@ using System.Windows.Forms;
 
 namespace PuzzleBobble
 {
+    public enum Richting
+    {
+        rechts,
+        links
+    }
     public class SpeelBox
     {
         private Random r;
@@ -15,6 +20,8 @@ namespace PuzzleBobble
         private Form1 form;
         private Rectangle raster;
         private Bal cannon;
+        private Point oldLocationCannon;
+        private const int formaatBal = 50;
 
         //Constructor
         public SpeelBox(Form1 form)
@@ -30,7 +37,6 @@ namespace PuzzleBobble
             int aantalBallen = 10;
             int rijen = 4;
             int maxRijen = 8;
-            int formaatBal = 50;
             int offset = 5;
             x = offset;
             y = offset;
@@ -82,10 +88,72 @@ namespace PuzzleBobble
             }
         }
 
-        internal void MouseClick(int x, int y)
+        internal void MouseClick(int mouseX, int mouseY)
         {
             //MessageBox.Show("X = " + x + "Y = " + y);
+            oldLocationCannon = new Point(cannon.rand.Location.X, cannon.rand.Location.Y);
+            int currentX = cannon.rand.Location.X;
+            int currentY = cannon.rand.Location.Y;
+            //cannon bal moet altijd hoger zijn
+            if (mouseY < currentY)
+            {
+                //links geklikt ten opzichte van de cannon bal
+                //rechts geklikt ten opzichte van de cannon bal dan is mouseX groter
+                if (mouseX < currentX)
+                {
+                    MoveCannonBal(currentX, currentY, Richting.links);
+                }
+                else
+                {
+                    MoveCannonBal(currentX, currentY, Richting.rechts);
+                }
+            }
+        }
 
+        private void MoveCannonBal(int x, int y, Richting rt)
+        {
+            Richting richting = rt;
+            switch(richting)
+            {
+                case Richting.links:
+                    x -= formaatBal;
+                    break;
+                case Richting.rechts:
+                    x += formaatBal;
+                    break;
+            }
+            y -= formaatBal;
+            if(CheckBal(x, y))
+            {
+                return;
+            }
+            //Links eruit gevlogen
+            if(x < raster.X)
+            {
+                richting = Richting.rechts;
+            }
+            //Rechts eruit gevlogen
+            else if(x > raster.X + raster.Size.Width)
+            {
+                richting = Richting.links;
+            }
+            MoveCannonBal(x, y, richting);
+        }
+
+        //return true als de bal een andere bal geraakt heeft
+        private bool CheckBal(int x, int y)
+        {
+            Rectangle checkRect = new Rectangle(x, y, formaatBal, formaatBal);
+            foreach(Bal b in ballenLijst)
+            {
+                //contact gemaakt met een andere bal
+                if(checkRect.IntersectsWith(b.rand))
+                {
+                    MessageBox.Show("Nummer bal: " + (ballenLijst.IndexOf(b) + 1).ToString());
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

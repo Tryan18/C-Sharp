@@ -20,6 +20,7 @@ namespace PuzzleBobble
     {
         private PictureBox pb;
         private SpeelBox sb;
+        public Rectangle rand;
 
         public Bal(Form1 form,int x,int y,int width,int height,
             ColorBall kleur,SpeelBox sb,bool isCannon)
@@ -28,6 +29,7 @@ namespace PuzzleBobble
             pb = new PictureBox();
             pb.Location = new Point(x, y);
             pb.Size = new Size(width, height);
+            rand = new Rectangle(x,y,width, height);
             if (!isCannon)
             {
                 pb.MouseClick += pb_MouseClick;
