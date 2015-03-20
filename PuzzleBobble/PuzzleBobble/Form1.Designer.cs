@@ -29,11 +29,9 @@
         private void InitializeComponent()
         {
             this.btn_start = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.group_debug = new System.Windows.Forms.GroupBox();
             this.lbl_y = new System.Windows.Forms.Label();
             this.lbl_x = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.group_debug.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,16 +44,6 @@
             this.btn_start.Text = "Start";
             this.btn_start.UseVisualStyleBackColor = true;
             this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::PuzzleBobble.Properties.Resources.bubble_blue_gradient_md;
-            this.pictureBox1.Location = new System.Drawing.Point(227, 360);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // group_debug
             // 
@@ -91,7 +79,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(801, 422);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.group_debug);
             this.Controls.Add(this.btn_start);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -101,7 +88,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Puzzle Bobble";
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.group_debug.ResumeLayout(false);
             this.group_debug.PerformLayout();
             this.ResumeLayout(false);
@@ -111,7 +97,6 @@
         #endregion
 
         private System.Windows.Forms.Button btn_start;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox group_debug;
         public System.Windows.Forms.Label lbl_y;
         public System.Windows.Forms.Label lbl_x;

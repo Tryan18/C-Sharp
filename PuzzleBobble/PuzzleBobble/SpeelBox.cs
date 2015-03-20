@@ -14,6 +14,8 @@ namespace PuzzleBobble
         private List<Bal> ballenLijst;
         private Form1 form;
         private Rectangle raster;
+        private Bal cannon;
+
         //Constructor
         public SpeelBox(Form1 form)
         {
@@ -44,13 +46,14 @@ namespace PuzzleBobble
                 //kollommen
                 for (int j = 0; j < aantalBallen; j++)
                 {
-                    Bal b = new Bal(form,x,y,width,height,(ColorBall)r.Next(0,4),this);
+                    Bal b = new Bal(form,x,y,width,height,(ColorBall)r.Next(0,4),this,false);
                     ballenLijst.Add(b);
                     x += width;
                 }
                 x = 5;
                 y += height;
             }
+            cannon = new Bal(form, 227, 360, formaatBal, formaatBal, (ColorBall)r.Next(0, 4), this,true);
         }
 
         private void maakAchtergrond()
@@ -75,6 +78,7 @@ namespace PuzzleBobble
                 {
                     b.KillBal();
                 }
+                cannon.KillBal();
             }
         }
 

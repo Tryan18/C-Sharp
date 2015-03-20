@@ -21,13 +21,17 @@ namespace PuzzleBobble
         private PictureBox pb;
         private SpeelBox sb;
 
-        public Bal(Form1 form,int x,int y,int width,int height,ColorBall kleur,SpeelBox sb)
+        public Bal(Form1 form,int x,int y,int width,int height,
+            ColorBall kleur,SpeelBox sb,bool isCannon)
         {
             this.sb = sb;
             pb = new PictureBox();
             pb.Location = new Point(x, y);
             pb.Size = new Size(width, height);
-            pb.MouseClick += pb_MouseClick;
+            if (!isCannon)
+            {
+                pb.MouseClick += pb_MouseClick;
+            }
             pb.SizeMode = PictureBoxSizeMode.StretchImage;
             switch (kleur)
             {
