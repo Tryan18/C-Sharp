@@ -1,0 +1,9 @@
+C:\Users\terence\documents\visual studio 2013\Projects\PuzzleBobble\PuzzleBobble\bin\Debug\PuzzleBobble.exe.config
+C:\Users\terence\documents\visual studio 2013\Projects\PuzzleBobble\PuzzleBobble\obj\Debug\PuzzleBobble.csprojResolveAssemblyReference.cache
+C:\Users\terence\documents\visual studio 2013\Projects\PuzzleBobble\PuzzleBobble\obj\Debug\PuzzleBobble.Form1.resources
+C:\Users\terence\documents\visual studio 2013\Projects\PuzzleBobble\PuzzleBobble\obj\Debug\PuzzleBobble.Properties.Resources.resources
+C:\Users\terence\documents\visual studio 2013\Projects\PuzzleBobble\PuzzleBobble\obj\Debug\PuzzleBobble.csproj.GenerateResource.Cache
+C:\Users\terence\documents\visual studio 2013\Projects\PuzzleBobble\PuzzleBobble\bin\Debug\PuzzleBobble.exe
+C:\Users\terence\documents\visual studio 2013\Projects\PuzzleBobble\PuzzleBobble\bin\Debug\PuzzleBobble.pdb
+C:\Users\terence\documents\visual studio 2013\Projects\PuzzleBobble\PuzzleBobble\obj\Debug\PuzzleBobble.exe
+C:\Users\terence\documents\visual studio 2013\Projects\PuzzleBobble\PuzzleBobble\obj\Debug\PuzzleBobble.pdb
