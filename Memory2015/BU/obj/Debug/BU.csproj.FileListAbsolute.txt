@@ -1,0 +1,5 @@
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\BU\bin\Debug\BU.dll
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\BU\bin\Debug\BU.pdb
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\BU\obj\Debug\BU.csprojResolveAssemblyReference.cache
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\BU\obj\Debug\BU.dll
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\BU\obj\Debug\BU.pdb

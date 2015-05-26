@@ -1,0 +1,7 @@
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\CC\obj\Debug\CC.csprojResolveAssemblyReference.cache
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\CC\bin\Debug\CC.dll
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\CC\bin\Debug\CC.pdb
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\CC\bin\Debug\BU.dll
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\CC\bin\Debug\BU.pdb
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\CC\obj\Debug\CC.dll
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\CC\obj\Debug\CC.pdb

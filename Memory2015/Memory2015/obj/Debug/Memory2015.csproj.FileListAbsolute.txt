@@ -1,0 +1,13 @@
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\bin\Debug\Memory2015.exe.config
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\bin\Debug\Memory2015.exe
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\bin\Debug\Memory2015.pdb
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\obj\Debug\Memory2015.csprojResolveAssemblyReference.cache
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\obj\Debug\Memory2015.Properties.Resources.resources
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\obj\Debug\Memory2015.csproj.GenerateResource.Cache
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\obj\Debug\Memory2015.exe
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\obj\Debug\Memory2015.pdb
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\obj\Debug\Memory2015.Form1.resources
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\bin\Debug\BU.dll
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\bin\Debug\CC.dll
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\bin\Debug\BU.pdb
+c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\bin\Debug\CC.pdb
