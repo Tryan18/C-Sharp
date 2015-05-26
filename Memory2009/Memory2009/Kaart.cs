@@ -104,41 +104,46 @@ namespace Memory2009
                     //b = Properties.Resources.achtergrond;
                     b = Properties.Resources.achtergrond;
                     //b = Image.FromFile("C:\\Memplaatjes\\achtergrond.JPG");
+                    break;
                 case 1:
                     //afbeelding 1
                     b = Properties.Resources._3_Bouten;
-                    b = Image.FromFile("C:\\Memplaatjes\\3Bouten.JPG");
+                    //b = Image.FromFile("C:\\Memplaatjes\\3Bouten.JPG");
                     break;
                 case 2:
                     //afbeelding 2
                     b = Properties.Resources.cartman;
-                    b = Image.FromFile("C:\\Memplaatjes\\cartman.JPG");
+                    //b = Image.FromFile("C:\\Memplaatjes\\cartman.JPG");
                     break;
                 case 3:
                     //afbeelding 3
                      b = Properties.Resources.divx;
-                    b = Image.FromFile("C:\\Memplaatjes\\divx.JPG");
+                    //b = Image.FromFile("C:\\Memplaatjes\\divx.JPG");
                     break;
                 case 4:
                     //afbeelding 4
                     b = Properties.Resources.fatboyslimz;
-                    b = Image.FromFile("C:\\Memplaatjes\\fatboyslimz.JPG");
+                    //b = Image.FromFile("C:\\Memplaatjes\\fatboyslimz.JPG");
                     break;
                 case 5:
                     //afbeelding 5
-                    b = Image.FromFile("C:\\Memplaatjes\\Felix.JPG");
+                    b = Properties.Resources.Felix;
+                    //b = Image.FromFile("C:\\Memplaatjes\\Felix.JPG");
                     break;
                 case 6:
                     //afbeelding 6
-                    b = Image.FromFile("C:\\Memplaatjes\\hamburger.JPG");
+                    b = Properties.Resources.hamburger;
+                    //b = Image.FromFile("C:\\Memplaatjes\\hamburger.JPG");
                     break;
                 case 7:
                     //afbeelding 7
-                    b = Image.FromFile("C:\\Memplaatjes\\Homer.JPG");
+                    b = Properties.Resources.Homer;
+                    //b = Image.FromFile("C:\\Memplaatjes\\Homer.JPG");
                     break;
                 case 8:
                     //afbeelding 8
-                    b = Image.FromFile("C:\\Memplaatjes\\tweety.JPG");
+                    b = Properties.Resources.tweety;
+                    //b = Image.FromFile("C:\\Memplaatjes\\tweety.JPG");
                     break;
             }
             return b;
