@@ -22,6 +22,7 @@ namespace Memory2015
 
         private void btn_start_Click(object sender, EventArgs e)
         {
+            gb_speeldveld.Controls.Clear();
             sv = new Speelveld(Convert.ToInt32(num_matrixIndex.Value),gb_speeldveld.Size);
             sv.aceh += AddControlEvent;
             sv.Start();

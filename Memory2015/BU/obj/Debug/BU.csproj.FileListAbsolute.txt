@@ -3,3 +3,10 @@ c:\users\terence\documents\visual studio 2013\Projects\Memory2015\BU\bin\Debug\B
 c:\users\terence\documents\visual studio 2013\Projects\Memory2015\BU\obj\Debug\BU.csprojResolveAssemblyReference.cache
 c:\users\terence\documents\visual studio 2013\Projects\Memory2015\BU\obj\Debug\BU.dll
 c:\users\terence\documents\visual studio 2013\Projects\Memory2015\BU\obj\Debug\BU.pdb
+C:\Users\terence\Desktop\C#\Memory2015\BU\bin\Debug\BU.dll
+C:\Users\terence\Desktop\C#\Memory2015\BU\bin\Debug\BU.pdb
+C:\Users\terence\Desktop\C#\Memory2015\BU\obj\Debug\BU.csprojResolveAssemblyReference.cache
+C:\Users\terence\Desktop\C#\Memory2015\BU\obj\Debug\BU.Properties.Resources.resources
+C:\Users\terence\Desktop\C#\Memory2015\BU\obj\Debug\BU.csproj.GenerateResource.Cache
+C:\Users\terence\Desktop\C#\Memory2015\BU\obj\Debug\BU.dll
+C:\Users\terence\Desktop\C#\Memory2015\BU\obj\Debug\BU.pdb

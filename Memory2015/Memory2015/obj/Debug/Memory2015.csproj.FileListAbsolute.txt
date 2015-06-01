@@ -11,3 +11,16 @@ c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\bin
 c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\bin\Debug\CC.dll
 c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\bin\Debug\BU.pdb
 c:\users\terence\documents\visual studio 2013\Projects\Memory2015\Memory2015\bin\Debug\CC.pdb
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\bin\Debug\Memory2015.exe.config
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\obj\Debug\Memory2015.exe
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\obj\Debug\Memory2015.pdb
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\bin\Debug\Memory2015.exe
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\bin\Debug\Memory2015.pdb
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\bin\Debug\BU.dll
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\bin\Debug\CC.dll
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\bin\Debug\BU.pdb
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\bin\Debug\CC.pdb
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\obj\Debug\Memory2015.csprojResolveAssemblyReference.cache
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\obj\Debug\Memory2015.Form1.resources
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\obj\Debug\Memory2015.Properties.Resources.resources
+C:\Users\terence\Desktop\C#\Memory2015\Memory2015\obj\Debug\Memory2015.csproj.GenerateResource.Cache

@@ -5,3 +5,10 @@ c:\users\terence\documents\visual studio 2013\Projects\Memory2015\CC\bin\Debug\B
 c:\users\terence\documents\visual studio 2013\Projects\Memory2015\CC\bin\Debug\BU.pdb
 c:\users\terence\documents\visual studio 2013\Projects\Memory2015\CC\obj\Debug\CC.dll
 c:\users\terence\documents\visual studio 2013\Projects\Memory2015\CC\obj\Debug\CC.pdb
+C:\Users\terence\Desktop\C#\Memory2015\CC\bin\Debug\CC.dll
+C:\Users\terence\Desktop\C#\Memory2015\CC\bin\Debug\CC.pdb
+C:\Users\terence\Desktop\C#\Memory2015\CC\bin\Debug\BU.dll
+C:\Users\terence\Desktop\C#\Memory2015\CC\bin\Debug\BU.pdb
+C:\Users\terence\Desktop\C#\Memory2015\CC\obj\Debug\CC.csprojResolveAssemblyReference.cache
+C:\Users\terence\Desktop\C#\Memory2015\CC\obj\Debug\CC.dll
+C:\Users\terence\Desktop\C#\Memory2015\CC\obj\Debug\CC.pdb

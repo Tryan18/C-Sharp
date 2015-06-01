@@ -11,12 +11,14 @@ namespace CC
 {
     public class Speelveld
     {
+        private Random r = new Random();
         private int matrixIndex;
         private Size groupbox_size;
         int offset = 15;
         public delegate void AddControlEventHandler(Control c);
         public event AddControlEventHandler aceh;
         private List<Kaart> kaarten;
+
 
         //Constructor
         public Speelveld(int matrixIndex, Size groupbox_size)
@@ -32,16 +34,18 @@ namespace CC
             int y = offset;
             int width = CalculatePictureboxWidth();
             int height = CalculatePictureboxHeight();
+            int orgPos = 0;
 
             for(int i=0;i<matrixIndex;i++)
             {
                 for(int j=0;j<matrixIndex;j++)
                 {
                     //Kaart Object aanmaken
-                    Kaart k = new Kaart(x, y, width, height);
+                    Kaart k = new Kaart(x, y, width, height,(plaatje) r.Next(8),orgPos);
                     kaarten.Add(k);
                     aceh(k.PB);
                     x += offset + width;
+                    orgPos++;
                 }
                 x = offset;
                 y += offset + height;
