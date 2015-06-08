@@ -19,8 +19,12 @@ namespace ZuydRPG_EF.UI
         protected void btn_ok_Click(object sender, EventArgs e)
         {
             CC_CharacterModifcation cm = new CC_CharacterModifcation();
-            cm.CreateCharacter(txt_name.Text);
-            Utils.ShowMessage(this,"Character Created!");
+            if (cm.CreateCharacter(txt_name.Text))
+            {
+                Utils.ShowMessage(this, "Character Created!");
+            }
+            else
+                Utils.ShowMessage(this, "Character with the same name already exists!");
         }
     }
 }

@@ -107,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="UI\CreateCharacter.aspx" />
+    <Content Include="UI\OverviewCharacters.aspx" />
     <Content Include="Web.config" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -178,6 +179,13 @@
     </Compile>
     <Compile Include="UI\CreateCharacter.aspx.designer.cs">
       <DependentUpon>CreateCharacter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OverviewCharacters.aspx.cs">
+      <DependentUpon>OverviewCharacters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\OverviewCharacters.aspx.designer.cs">
+      <DependentUpon>OverviewCharacters.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -11,13 +11,15 @@ namespace ZuydRPG_EF.BU
         {
             using (ZuydRPGEntities context = new ZuydRPGEntities())
             {
-                //Methode 1
+                //Methode 1 (Normal code
                 return context.CharacterSet.Find(Id);
-                //Methode 2
+
+                //Methode 2 (Linq query)
                 /*var character = (from c in context.CharacterSet
                                      where c.Id == Id
                                      select c);*/
-                //Methode 3
+
+                //Methode 3 (Normal + Linq Mixed)
                 //var character2 = context.CharacterSet.Where(c => c.Id == Id).FirstOrDefault();
             }
         }
@@ -44,6 +46,14 @@ namespace ZuydRPG_EF.BU
             {
                 List<Character> characters = context.CharacterSet.ToList();
                 return characters;
+            }
+        }
+
+        internal static Character FindCharacterName(string name)
+        {
+            using (ZuydRPGEntities context = new ZuydRPGEntities())
+            {
+                return context.CharacterSet.Where(a => a.Name == name).FirstOrDefault();
             }
         }
     }
