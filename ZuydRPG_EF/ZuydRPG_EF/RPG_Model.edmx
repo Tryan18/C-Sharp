@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="RPG_Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="RPG_ModelStoreContainer">
+    <EntitySet Name="CharacterSet" EntityType="RPG_Model.Store.CharacterSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MonsterSet" EntityType="RPG_Model.Store.MonsterSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GearSet" EntityType="RPG_Model.Store.GearSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LocationSet" EntityType="RPG_Model.Store.LocationSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CharacterSet_Fighter" EntityType="RPG_Model.Store.CharacterSet_Fighter" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CharacterSet_Mage" EntityType="RPG_Model.Store.CharacterSet_Mage" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MonsterSet_Goomba" EntityType="RPG_Model.Store.MonsterSet_Goomba" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="CharacterLocation" Association="RPG_Model.Store.CharacterLocation">
+      <End Role="Character" EntitySet="CharacterSet" />
+      <End Role="Location" EntitySet="LocationSet" />
+    </AssociationSet>
+    <AssociationSet Name="LocationMonster" Association="RPG_Model.Store.LocationMonster">
+      <End Role="Location" EntitySet="LocationSet" />
+      <End Role="Monster" EntitySet="MonsterSet" />
+    </AssociationSet>
+    <AssociationSet Name="GearCharacter" Association="RPG_Model.Store.GearCharacter">
+      <End Role="Gear" EntitySet="GearSet" />
+      <End Role="Character" EntitySet="CharacterSet" />
+    </AssociationSet>
+    <AssociationSet Name="GearMonster" Association="RPG_Model.Store.GearMonster">
+      <End Role="Gear" EntitySet="GearSet" />
+      <End Role="Monster" EntitySet="MonsterSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Fighter_inherits_Character" Association="RPG_Model.Store.FK_Fighter_inherits_Character">
+      <End Role="Character" EntitySet="CharacterSet" />
+      <End Role="Fighter" EntitySet="CharacterSet_Fighter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mage_inherits_Character" Association="RPG_Model.Store.FK_Mage_inherits_Character">
+      <End Role="Character" EntitySet="CharacterSet" />
+      <End Role="Mage" EntitySet="CharacterSet_Mage" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Goomba_inherits_Monster" Association="RPG_Model.Store.FK_Goomba_inherits_Monster">
+      <End Role="Monster" EntitySet="MonsterSet" />
+      <End Role="Goomba" EntitySet="MonsterSet_Goomba" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CharacterSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Location_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MonsterSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+    <Property Name="Location_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GearSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Character_Id" Type="int" Nullable="false" />
+    <Property Name="Monster_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LocationSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CharacterSet_Fighter">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CharacterSet_Mage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MonsterSet_Goomba">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="CharacterLocation">
+    <End Role="Character" Type="RPG_Model.Store.CharacterSet" Multiplicity="*" />
+    <End Role="Location" Type="RPG_Model.Store.LocationSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Character">
+        <PropertyRef Name="Location_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="LocationMonster">
+    <End Role="Location" Type="RPG_Model.Store.LocationSet" Multiplicity="1" />
+    <End Role="Monster" Type="RPG_Model.Store.MonsterSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Monster">
+        <PropertyRef Name="Location_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GearCharacter">
+    <End Role="Gear" Type="RPG_Model.Store.GearSet" Multiplicity="*" />
+    <End Role="Character" Type="RPG_Model.Store.CharacterSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Character">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Gear">
+        <PropertyRef Name="Character_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GearMonster">
+    <End Role="Gear" Type="RPG_Model.Store.GearSet" Multiplicity="*" />
+    <End Role="Monster" Type="RPG_Model.Store.MonsterSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Monster">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Gear">
+        <PropertyRef Name="Monster_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Fighter_inherits_Character">
+    <End Role="Character" Type="RPG_Model.Store.CharacterSet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Fighter" Type="RPG_Model.Store.CharacterSet_Fighter" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Character">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Fighter">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mage_inherits_Character">
+    <End Role="Character" Type="RPG_Model.Store.CharacterSet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Mage" Type="RPG_Model.Store.CharacterSet_Mage" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Character">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Mage">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Goomba_inherits_Monster">
+    <End Role="Monster" Type="RPG_Model.Store.MonsterSet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Goomba" Type="RPG_Model.Store.MonsterSet_Goomba" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Monster">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Goomba">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="RPG_Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="RPG_ModelContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CharacterSet" EntityType="RPG_Model.Character" />
+          <EntitySet Name="MonsterSet" EntityType="RPG_Model.Monster" />
+          <EntitySet Name="GearSet" EntityType="RPG_Model.Gear" />
+          <EntitySet Name="LocationSet" EntityType="RPG_Model.Location" />
+          <AssociationSet Name="CharacterLocation" Association="RPG_Model.CharacterLocation">
+            <End Role="Character" EntitySet="CharacterSet" />
+            <End Role="Location" EntitySet="LocationSet" />
+          </AssociationSet>
+          <AssociationSet Name="LocationMonster" Association="RPG_Model.LocationMonster">
+            <End Role="Location" EntitySet="LocationSet" />
+            <End Role="Monster" EntitySet="MonsterSet" />
+          </AssociationSet>
+          <AssociationSet Name="GearCharacter" Association="RPG_Model.GearCharacter">
+            <End Role="Gear" EntitySet="GearSet" />
+            <End Role="Character" EntitySet="CharacterSet" />
+          </AssociationSet>
+          <AssociationSet Name="GearMonster" Association="RPG_Model.GearMonster">
+            <End Role="Gear" EntitySet="GearSet" />
+            <End Role="Monster" EntitySet="MonsterSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Character">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="Location" Relationship="RPG_Model.CharacterLocation" FromRole="Character" ToRole="Location" />
+          <NavigationProperty Name="Equipement" Relationship="RPG_Model.GearCharacter" FromRole="Character" ToRole="Gear" />
+        </EntityType>
+        <EntityType Name="Fighter" BaseType="RPG_Model.Character" />
+        <EntityType Name="Mage" BaseType="RPG_Model.Character" />
+        <EntityType Name="Monster">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="LocationId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Location" Relationship="RPG_Model.LocationMonster" FromRole="Monster" ToRole="Location" />
+          <NavigationProperty Name="Equipement" Relationship="RPG_Model.GearMonster" FromRole="Monster" ToRole="Gear" />
+        </EntityType>
+        <EntityType Name="Goomba" BaseType="RPG_Model.Monster" />
+        <EntityType Name="Gear">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="Character" Relationship="RPG_Model.GearCharacter" FromRole="Gear" ToRole="Character" />
+          <NavigationProperty Name="Monster" Relationship="RPG_Model.GearMonster" FromRole="Gear" ToRole="Monster" />
+        </EntityType>
+        <EntityType Name="Location">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="Characters" Relationship="RPG_Model.CharacterLocation" FromRole="Location" ToRole="Character" />
+          <NavigationProperty Name="Monsters" Relationship="RPG_Model.LocationMonster" FromRole="Location" ToRole="Monster" />
+        </EntityType>
+        <Association Name="CharacterLocation">
+          <End Type="RPG_Model.Character" Role="Character" Multiplicity="*" />
+          <End Type="RPG_Model.Location" Role="Location" Multiplicity="1" />
+        </Association>
+        <Association Name="LocationMonster">
+          <End Type="RPG_Model.Location" Role="Location" Multiplicity="1" />
+          <End Type="RPG_Model.Monster" Role="Monster" Multiplicity="*" />
+        </Association>
+        <Association Name="GearCharacter">
+          <End Type="RPG_Model.Gear" Role="Gear" Multiplicity="*" />
+          <End Type="RPG_Model.Character" Role="Character" Multiplicity="1" />
+        </Association>
+        <Association Name="GearMonster">
+          <End Type="RPG_Model.Gear" Role="Gear" Multiplicity="*" />
+          <End Type="RPG_Model.Monster" Role="Monster" Multiplicity="1" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RPG_ModelStoreContainer" CdmEntityContainer="RPG_ModelContainer">
+    <EntitySetMapping Name="CharacterSet">
+      <EntityTypeMapping TypeName="IsTypeOf(RPG_Model.Character)">
+        <MappingFragment StoreEntitySet="CharacterSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(RPG_Model.Fighter)">
+        <MappingFragment StoreEntitySet="CharacterSet_Fighter">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(RPG_Model.Mage)">
+        <MappingFragment StoreEntitySet="CharacterSet_Mage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MonsterSet">
+      <EntityTypeMapping TypeName="IsTypeOf(RPG_Model.Monster)">
+        <MappingFragment StoreEntitySet="MonsterSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(RPG_Model.Goomba)">
+        <MappingFragment StoreEntitySet="MonsterSet_Goomba">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GearSet">
+      <EntityTypeMapping TypeName="IsTypeOf(RPG_Model.Gear)">
+        <MappingFragment StoreEntitySet="GearSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LocationSet">
+      <EntityTypeMapping TypeName="IsTypeOf(RPG_Model.Location)">
+        <MappingFragment StoreEntitySet="LocationSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="CharacterLocation" TypeName="RPG_Model.CharacterLocation" StoreEntitySet="CharacterSet">
+      <EndProperty Name="Location">
+        <ScalarProperty Name="Id" ColumnName="Location_Id" />
+      </EndProperty>
+      <EndProperty Name="Character">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="LocationMonster" TypeName="RPG_Model.LocationMonster" StoreEntitySet="MonsterSet">
+      <EndProperty Name="Location">
+        <ScalarProperty Name="Id" ColumnName="Location_Id" />
+      </EndProperty>
+      <EndProperty Name="Monster">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="GearCharacter" TypeName="RPG_Model.GearCharacter" StoreEntitySet="GearSet">
+      <EndProperty Name="Character">
+        <ScalarProperty Name="Id" ColumnName="Character_Id" />
+      </EndProperty>
+      <EndProperty Name="Gear">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="GearMonster" TypeName="RPG_Model.GearMonster" StoreEntitySet="GearSet">
+      <EndProperty Name="Monster">
+        <ScalarProperty Name="Id" ColumnName="Monster_Id" />
+      </EndProperty>
+      <EndProperty Name="Gear">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

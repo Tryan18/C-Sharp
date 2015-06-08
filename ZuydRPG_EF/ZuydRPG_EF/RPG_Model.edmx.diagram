@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="56d2720405a146ddb224eadd8bb80417" Name="Diagram1" >
+        <EntityTypeShape EntityType="RPG_Model.Character" Width="1.5" PointX="4.25" PointY="2.25" />
+        <EntityTypeShape EntityType="RPG_Model.Fighter" Width="1.5" PointX="4.25" PointY="0.5" />
+        <InheritanceConnector EntityType="RPG_Model.Fighter" />
+        <EntityTypeShape EntityType="RPG_Model.Mage" Width="1.5" PointX="1.375" PointY="2.375" />
+        <InheritanceConnector EntityType="RPG_Model.Mage" />
+        <EntityTypeShape EntityType="RPG_Model.Monster" Width="1.5" PointX="8.875" PointY="4.75" />
+        <EntityTypeShape EntityType="RPG_Model.Goomba" Width="1.5" PointX="11.5" PointY="4.875" />
+        <InheritanceConnector EntityType="RPG_Model.Goomba" />
+        <EntityTypeShape EntityType="RPG_Model.Gear" Width="1.5" PointX="8.875" PointY="2.25" />
+        <EntityTypeShape EntityType="RPG_Model.Location" Width="1.5" PointX="4.125" PointY="4.75" />
+        <AssociationConnector Association="RPG_Model.CharacterLocation" />
+        <AssociationConnector Association="RPG_Model.LocationMonster" />
+        <AssociationConnector Association="RPG_Model.GearCharacter" />
+        <AssociationConnector Association="RPG_Model.GearMonster" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

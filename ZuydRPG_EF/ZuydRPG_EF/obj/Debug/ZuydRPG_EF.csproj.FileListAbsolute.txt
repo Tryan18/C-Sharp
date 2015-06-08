@@ -1,0 +1,6 @@
+c:\users\tryan\documents\visual studio 2013\Projects\ZuydRPG_EF\ZuydRPG_EF\bin\ZuydRPG_EF.dll.config
+c:\users\tryan\documents\visual studio 2013\Projects\ZuydRPG_EF\ZuydRPG_EF\bin\ZuydRPG_EF.dll
+c:\users\tryan\documents\visual studio 2013\Projects\ZuydRPG_EF\ZuydRPG_EF\bin\ZuydRPG_EF.pdb
+c:\users\tryan\documents\visual studio 2013\Projects\ZuydRPG_EF\ZuydRPG_EF\obj\Debug\ZuydRPG_EF.csprojResolveAssemblyReference.cache
+c:\users\tryan\documents\visual studio 2013\Projects\ZuydRPG_EF\ZuydRPG_EF\obj\Debug\ZuydRPG_EF.dll
+c:\users\tryan\documents\visual studio 2013\Projects\ZuydRPG_EF\ZuydRPG_EF\obj\Debug\ZuydRPG_EF.pdb
