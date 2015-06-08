@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ZuydRPG_EF.BU.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ZuydRPG_EFBUStoreContainer">
+    <EntitySet Name="CharacterSet" EntityType="ZuydRPG_EF.BU.Store.CharacterSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MonsterSet" EntityType="ZuydRPG_EF.BU.Store.MonsterSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LocationSet" EntityType="ZuydRPG_EF.BU.Store.LocationSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CharacterSet_Fighter" EntityType="ZuydRPG_EF.BU.Store.CharacterSet_Fighter" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CharacterSet_Mage" EntityType="ZuydRPG_EF.BU.Store.CharacterSet_Mage" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MonsterSet_Goomba" EntityType="ZuydRPG_EF.BU.Store.MonsterSet_Goomba" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="CharacterLocation" Association="ZuydRPG_EF.BU.Store.CharacterLocation">
+      <End Role="Character" EntitySet="CharacterSet" />
+      <End Role="Location" EntitySet="LocationSet" />
+    </AssociationSet>
+    <AssociationSet Name="MonsterLocation" Association="ZuydRPG_EF.BU.Store.MonsterLocation">
+      <End Role="Monster" EntitySet="MonsterSet" />
+      <End Role="Location" EntitySet="LocationSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Fighter_inherits_Character" Association="ZuydRPG_EF.BU.Store.FK_Fighter_inherits_Character">
+      <End Role="Character" EntitySet="CharacterSet" />
+      <End Role="Fighter" EntitySet="CharacterSet_Fighter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mage_inherits_Character" Association="ZuydRPG_EF.BU.Store.FK_Mage_inherits_Character">
+      <End Role="Character" EntitySet="CharacterSet" />
+      <End Role="Mage" EntitySet="CharacterSet_Mage" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Goomba_inherits_Monster" Association="ZuydRPG_EF.BU.Store.FK_Goomba_inherits_Monster">
+      <End Role="Monster" EntitySet="MonsterSet" />
+      <End Role="Goomba" EntitySet="MonsterSet_Goomba" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CharacterSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MonsterSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LocationSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CharacterSet_Fighter">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CharacterSet_Mage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MonsterSet_Goomba">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="CharacterLocation">
+    <End Role="Character" Type="ZuydRPG_EF.BU.Store.CharacterSet" Multiplicity="*" />
+    <End Role="Location" Type="ZuydRPG_EF.BU.Store.LocationSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Character">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MonsterLocation">
+    <End Role="Monster" Type="ZuydRPG_EF.BU.Store.MonsterSet" Multiplicity="*" />
+    <End Role="Location" Type="ZuydRPG_EF.BU.Store.LocationSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Monster">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Fighter_inherits_Character">
+    <End Role="Character" Type="ZuydRPG_EF.BU.Store.CharacterSet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Fighter" Type="ZuydRPG_EF.BU.Store.CharacterSet_Fighter" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Character">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Fighter">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mage_inherits_Character">
+    <End Role="Character" Type="ZuydRPG_EF.BU.Store.CharacterSet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Mage" Type="ZuydRPG_EF.BU.Store.CharacterSet_Mage" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Character">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Mage">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Goomba_inherits_Monster">
+    <End Role="Monster" Type="ZuydRPG_EF.BU.Store.MonsterSet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Goomba" Type="ZuydRPG_EF.BU.Store.MonsterSet_Goomba" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Monster">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Goomba">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ZuydRPG_EF.BU" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="ZuydRPGEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CharacterSet" EntityType="ZuydRPG_EF.BU.Character" />
+          <EntitySet Name="MonsterSet" EntityType="ZuydRPG_EF.BU.Monster" />
+          <EntitySet Name="LocationSet" EntityType="ZuydRPG_EF.BU.Location" />
+          <AssociationSet Name="CharacterLocation" Association="ZuydRPG_EF.BU.CharacterLocation">
+            <End Role="Character" EntitySet="CharacterSet" />
+            <End Role="Location" EntitySet="LocationSet" />
+          </AssociationSet>
+          <AssociationSet Name="MonsterLocation" Association="ZuydRPG_EF.BU.MonsterLocation">
+            <End Role="Monster" EntitySet="MonsterSet" />
+            <End Role="Location" EntitySet="LocationSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Character">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="Location" Relationship="ZuydRPG_EF.BU.CharacterLocation" FromRole="Character" ToRole="Location" />
+          <Property Name="LocationId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Fighter" BaseType="ZuydRPG_EF.BU.Character" />
+        <EntityType Name="Mage" BaseType="ZuydRPG_EF.BU.Character" />
+        <EntityType Name="Monster">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="Location" Relationship="ZuydRPG_EF.BU.MonsterLocation" FromRole="Monster" ToRole="Location" />
+          <Property Name="LocationId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Goomba" BaseType="ZuydRPG_EF.BU.Monster" />
+        <EntityType Name="Location">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="Characters" Relationship="ZuydRPG_EF.BU.CharacterLocation" FromRole="Location" ToRole="Character" />
+          <NavigationProperty Name="Monsters" Relationship="ZuydRPG_EF.BU.MonsterLocation" FromRole="Location" ToRole="Monster" />
+        </EntityType>
+        <Association Name="CharacterLocation">
+          <End Type="ZuydRPG_EF.BU.Character" Role="Character" Multiplicity="*" />
+          <End Type="ZuydRPG_EF.BU.Location" Role="Location" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Location">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Character">
+              <PropertyRef Name="LocationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MonsterLocation">
+          <End Type="ZuydRPG_EF.BU.Monster" Role="Monster" Multiplicity="*" />
+          <End Type="ZuydRPG_EF.BU.Location" Role="Location" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="Location">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Monster">
+              <PropertyRef Name="LocationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ZuydRPG_EFBUStoreContainer" CdmEntityContainer="ZuydRPGEntities">
+    <EntitySetMapping Name="CharacterSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Character)">
+        <MappingFragment StoreEntitySet="CharacterSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Fighter)">
+        <MappingFragment StoreEntitySet="CharacterSet_Fighter">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Mage)">
+        <MappingFragment StoreEntitySet="CharacterSet_Mage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MonsterSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Monster)">
+        <MappingFragment StoreEntitySet="MonsterSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Goomba)">
+        <MappingFragment StoreEntitySet="MonsterSet_Goomba">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LocationSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Location)">
+        <MappingFragment StoreEntitySet="LocationSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

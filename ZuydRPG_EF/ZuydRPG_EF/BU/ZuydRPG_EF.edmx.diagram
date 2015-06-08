@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="eda524830957428ba71e867f788f49ea" Name="Diagram1">
+        <EntityTypeShape EntityType="ZuydRPG_EF.BU.Character" Width="1.5" PointX="4.75" PointY="4" />
+        <EntityTypeShape EntityType="ZuydRPG_EF.BU.Fighter" Width="1.5" PointX="7.875" PointY="4" />
+        <InheritanceConnector EntityType="ZuydRPG_EF.BU.Fighter" />
+        <EntityTypeShape EntityType="ZuydRPG_EF.BU.Mage" Width="1.5" PointX="1.75" PointY="4" />
+        <InheritanceConnector EntityType="ZuydRPG_EF.BU.Mage" />
+        <EntityTypeShape EntityType="ZuydRPG_EF.BU.Monster" Width="1.5" PointX="4.75" PointY="8.25" />
+        <EntityTypeShape EntityType="ZuydRPG_EF.BU.Goomba" Width="1.5" PointX="8" PointY="8.375" />
+        <InheritanceConnector EntityType="ZuydRPG_EF.BU.Goomba" />
+        <EntityTypeShape EntityType="ZuydRPG_EF.BU.Location" Width="1.5" PointX="4.75" PointY="6.125" />
+        <AssociationConnector Association="ZuydRPG_EF.BU.CharacterLocation" />
+        <AssociationConnector Association="ZuydRPG_EF.BU.MonsterLocation" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ZuydRPG_EFBUStoreContainer" CdmEntityContainer="ZuydRPGEntities">
+    <EntitySetMapping Name="CharacterSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Character)">
+        <MappingFragment StoreEntitySet="CharacterSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Fighter)">
+        <MappingFragment StoreEntitySet="CharacterSet_Fighter">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Mage)">
+        <MappingFragment StoreEntitySet="CharacterSet_Mage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MonsterSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Monster)">
+        <MappingFragment StoreEntitySet="MonsterSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Goomba)">
+        <MappingFragment StoreEntitySet="MonsterSet_Goomba">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LocationSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Location)">
+        <MappingFragment StoreEntitySet="LocationSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

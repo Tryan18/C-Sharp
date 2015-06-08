@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ZuydRPG_EF.BU.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ZuydRPG_EFBUStoreContainer">
+    <EntitySet Name="CharacterSet" EntityType="ZuydRPG_EF.BU.Store.CharacterSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MonsterSet" EntityType="ZuydRPG_EF.BU.Store.MonsterSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LocationSet" EntityType="ZuydRPG_EF.BU.Store.LocationSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CharacterSet_Fighter" EntityType="ZuydRPG_EF.BU.Store.CharacterSet_Fighter" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CharacterSet_Mage" EntityType="ZuydRPG_EF.BU.Store.CharacterSet_Mage" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MonsterSet_Goomba" EntityType="ZuydRPG_EF.BU.Store.MonsterSet_Goomba" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="CharacterLocation" Association="ZuydRPG_EF.BU.Store.CharacterLocation">
+      <End Role="Character" EntitySet="CharacterSet" />
+      <End Role="Location" EntitySet="LocationSet" />
+    </AssociationSet>
+    <AssociationSet Name="MonsterLocation" Association="ZuydRPG_EF.BU.Store.MonsterLocation">
+      <End Role="Monster" EntitySet="MonsterSet" />
+      <End Role="Location" EntitySet="LocationSet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Fighter_inherits_Character" Association="ZuydRPG_EF.BU.Store.FK_Fighter_inherits_Character">
+      <End Role="Character" EntitySet="CharacterSet" />
+      <End Role="Fighter" EntitySet="CharacterSet_Fighter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mage_inherits_Character" Association="ZuydRPG_EF.BU.Store.FK_Mage_inherits_Character">
+      <End Role="Character" EntitySet="CharacterSet" />
+      <End Role="Mage" EntitySet="CharacterSet_Mage" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Goomba_inherits_Monster" Association="ZuydRPG_EF.BU.Store.FK_Goomba_inherits_Monster">
+      <End Role="Monster" EntitySet="MonsterSet" />
+      <End Role="Goomba" EntitySet="MonsterSet_Goomba" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CharacterSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MonsterSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LocationSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CharacterSet_Fighter">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CharacterSet_Mage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MonsterSet_Goomba">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="CharacterLocation">
+    <End Role="Character" Type="ZuydRPG_EF.BU.Store.CharacterSet" Multiplicity="*" />
+    <End Role="Location" Type="ZuydRPG_EF.BU.Store.LocationSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Character">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MonsterLocation">
+    <End Role="Monster" Type="ZuydRPG_EF.BU.Store.MonsterSet" Multiplicity="*" />
+    <End Role="Location" Type="ZuydRPG_EF.BU.Store.LocationSet" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Monster">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Fighter_inherits_Character">
+    <End Role="Character" Type="ZuydRPG_EF.BU.Store.CharacterSet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Fighter" Type="ZuydRPG_EF.BU.Store.CharacterSet_Fighter" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Character">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Fighter">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mage_inherits_Character">
+    <End Role="Character" Type="ZuydRPG_EF.BU.Store.CharacterSet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Mage" Type="ZuydRPG_EF.BU.Store.CharacterSet_Mage" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Character">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Mage">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Goomba_inherits_Monster">
+    <End Role="Monster" Type="ZuydRPG_EF.BU.Store.MonsterSet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Goomba" Type="ZuydRPG_EF.BU.Store.MonsterSet_Goomba" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Monster">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Goomba">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

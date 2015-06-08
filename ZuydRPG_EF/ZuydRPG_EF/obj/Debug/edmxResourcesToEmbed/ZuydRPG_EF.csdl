@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ZuydRPG_EF.BU" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ZuydRPGEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CharacterSet" EntityType="ZuydRPG_EF.BU.Character" />
+    <EntitySet Name="MonsterSet" EntityType="ZuydRPG_EF.BU.Monster" />
+    <EntitySet Name="LocationSet" EntityType="ZuydRPG_EF.BU.Location" />
+    <AssociationSet Name="CharacterLocation" Association="ZuydRPG_EF.BU.CharacterLocation">
+      <End Role="Character" EntitySet="CharacterSet" />
+      <End Role="Location" EntitySet="LocationSet" />
+    </AssociationSet>
+    <AssociationSet Name="MonsterLocation" Association="ZuydRPG_EF.BU.MonsterLocation">
+      <End Role="Monster" EntitySet="MonsterSet" />
+      <End Role="Location" EntitySet="LocationSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Character">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Location" Relationship="ZuydRPG_EF.BU.CharacterLocation" FromRole="Character" ToRole="Location" />
+    <Property Name="LocationId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Fighter" BaseType="ZuydRPG_EF.BU.Character" />
+  <EntityType Name="Mage" BaseType="ZuydRPG_EF.BU.Character" />
+  <EntityType Name="Monster">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Location" Relationship="ZuydRPG_EF.BU.MonsterLocation" FromRole="Monster" ToRole="Location" />
+    <Property Name="LocationId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Goomba" BaseType="ZuydRPG_EF.BU.Monster" />
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Characters" Relationship="ZuydRPG_EF.BU.CharacterLocation" FromRole="Location" ToRole="Character" />
+    <NavigationProperty Name="Monsters" Relationship="ZuydRPG_EF.BU.MonsterLocation" FromRole="Location" ToRole="Monster" />
+  </EntityType>
+  <Association Name="CharacterLocation">
+    <End Type="ZuydRPG_EF.BU.Character" Role="Character" Multiplicity="*" />
+    <End Type="ZuydRPG_EF.BU.Location" Role="Location" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Character">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MonsterLocation">
+    <End Type="ZuydRPG_EF.BU.Monster" Role="Monster" Multiplicity="*" />
+    <End Type="ZuydRPG_EF.BU.Location" Role="Location" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Monster">
+        <PropertyRef Name="LocationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
