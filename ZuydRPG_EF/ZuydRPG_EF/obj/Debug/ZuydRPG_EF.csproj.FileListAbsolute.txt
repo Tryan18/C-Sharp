@@ -23,3 +23,28 @@ c:\users\tryan\documents\visual studio 2013\Projects\ZuydRPG_EF\ZuydRPG_EF\bin\M
 c:\users\tryan\documents\visual studio 2013\Projects\ZuydRPG_EF\ZuydRPG_EF\obj\Debug\ZuydRPG_EF.csprojResolveAssemblyReference.cache
 c:\users\tryan\documents\visual studio 2013\Projects\ZuydRPG_EF\ZuydRPG_EF\obj\Debug\ZuydRPG_EF.dll
 c:\users\tryan\documents\visual studio 2013\Projects\ZuydRPG_EF\ZuydRPG_EF\obj\Debug\ZuydRPG_EF.pdb
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\ZuydRPG_EF.dll.config
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\ZuydRPG_EF.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\ZuydRPG_EF.pdb
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\Antlr3.Runtime.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\EntityFramework.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\EntityFramework.SqlServer.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\Newtonsoft.Json.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\System.Web.Optimization.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\WebGrease.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\EntityFramework.xml
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\EntityFramework.SqlServer.xml
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\System.Web.Optimization.xml
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\Antlr3.Runtime.pdb
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\Newtonsoft.Json.xml
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\obj\Debug\ZuydRPG_EF.csprojResolveAssemblyReference.cache
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\obj\Debug\ZuydRPG_EF.dll
+C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\obj\Debug\ZuydRPG_EF.pdb

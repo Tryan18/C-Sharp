@@ -20,6 +20,8 @@
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <NavigationProperty Name="Location" Relationship="ZuydRPG_EF.BU.CharacterLocation" FromRole="Character" ToRole="Location" />
     <Property Name="LocationId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" />
+    <Property Name="Level" Type="String" Nullable="true" />
   </EntityType>
   <EntityType Name="Fighter" BaseType="ZuydRPG_EF.BU.Character" />
   <EntityType Name="Mage" BaseType="ZuydRPG_EF.BU.Character" />

@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 06/08/2015 15:50:14
--- Generated from EDMX file: c:\users\tryan\documents\visual studio 2013\Projects\ZuydRPG_EF\ZuydRPG_EF\ZuydRPG_EF.edmx
+-- Date Created: 06/08/2015 17:05:03
+-- Generated from EDMX file: C:\Users\Tryan\Documents\GitHub\C-Sharp\ZuydRPG_EF\ZuydRPG_EF\BU\ZuydRPG_EF.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -17,11 +17,44 @@ GO
 -- Dropping existing FOREIGN KEY constraints
 -- --------------------------------------------------
 
+IF OBJECT_ID(N'[dbo].[FK_CharacterLocation]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[CharacterSet] DROP CONSTRAINT [FK_CharacterLocation];
+GO
+IF OBJECT_ID(N'[dbo].[FK_MonsterLocation]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[MonsterSet] DROP CONSTRAINT [FK_MonsterLocation];
+GO
+IF OBJECT_ID(N'[dbo].[FK_Fighter_inherits_Character]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[CharacterSet_Fighter] DROP CONSTRAINT [FK_Fighter_inherits_Character];
+GO
+IF OBJECT_ID(N'[dbo].[FK_Mage_inherits_Character]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[CharacterSet_Mage] DROP CONSTRAINT [FK_Mage_inherits_Character];
+GO
+IF OBJECT_ID(N'[dbo].[FK_Goomba_inherits_Monster]', 'F') IS NOT NULL
+    ALTER TABLE [dbo].[MonsterSet_Goomba] DROP CONSTRAINT [FK_Goomba_inherits_Monster];
+GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
 -- --------------------------------------------------
 
+IF OBJECT_ID(N'[dbo].[CharacterSet]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[CharacterSet];
+GO
+IF OBJECT_ID(N'[dbo].[MonsterSet]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[MonsterSet];
+GO
+IF OBJECT_ID(N'[dbo].[LocationSet]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[LocationSet];
+GO
+IF OBJECT_ID(N'[dbo].[CharacterSet_Fighter]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[CharacterSet_Fighter];
+GO
+IF OBJECT_ID(N'[dbo].[CharacterSet_Mage]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[CharacterSet_Mage];
+GO
+IF OBJECT_ID(N'[dbo].[MonsterSet_Goomba]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[MonsterSet_Goomba];
+GO
 
 -- --------------------------------------------------
 -- Creating all tables
@@ -30,7 +63,9 @@ GO
 -- Creating table 'CharacterSet'
 CREATE TABLE [dbo].[CharacterSet] (
     [Id] int IDENTITY(1,1) NOT NULL,
-    [LocationId] int  NOT NULL
+    [LocationId] int  NOT NULL,
+    [Name] nvarchar(max)  NULL,
+    [Level] nvarchar(max)  NULL
 );
 GO
 

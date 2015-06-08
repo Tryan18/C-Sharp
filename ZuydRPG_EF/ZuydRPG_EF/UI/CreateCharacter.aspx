@@ -14,7 +14,7 @@
             <asp:TextBox ID="txt_name" runat="server"></asp:TextBox>
         </p>
         <p>
-            <asp:Button ID="btn_ok" runat="server" Text="OK" />
+            <asp:Button ID="btn_ok" runat="server" Text="OK" OnClick="btn_ok_Click" />
         </p>
     </div>
     </form>

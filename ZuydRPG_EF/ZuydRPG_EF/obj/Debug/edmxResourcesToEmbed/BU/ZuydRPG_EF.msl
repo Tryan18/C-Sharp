@@ -6,6 +6,8 @@
         <MappingFragment StoreEntitySet="CharacterSet">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
         </MappingFragment>
       </EntityTypeMapping>
       <EntityTypeMapping TypeName="IsTypeOf(ZuydRPG_EF.BU.Fighter)">

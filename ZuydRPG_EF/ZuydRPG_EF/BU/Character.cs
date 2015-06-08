@@ -16,6 +16,8 @@ namespace ZuydRPG_EF.BU
     {
         public int Id { get; set; }
         public int LocationId { get; set; }
+        public string Name { get; set; }
+        public string Level { get; set; }
     
         public virtual Location Location { get; set; }
     }
