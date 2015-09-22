@@ -1,0 +1,9 @@
+c:\users\tryan\documents\visual studio 2013\Projects\Woorden teller\Woorden teller\bin\Debug\Woorden teller.exe.config
+c:\users\tryan\documents\visual studio 2013\Projects\Woorden teller\Woorden teller\bin\Debug\Woorden teller.exe
+c:\users\tryan\documents\visual studio 2013\Projects\Woorden teller\Woorden teller\bin\Debug\Woorden teller.pdb
+c:\users\tryan\documents\visual studio 2013\Projects\Woorden teller\Woorden teller\obj\Debug\Woorden teller.csprojResolveAssemblyReference.cache
+c:\users\tryan\documents\visual studio 2013\Projects\Woorden teller\Woorden teller\obj\Debug\Woorden_teller.Form1.resources
+c:\users\tryan\documents\visual studio 2013\Projects\Woorden teller\Woorden teller\obj\Debug\Woorden_teller.Properties.Resources.resources
+c:\users\tryan\documents\visual studio 2013\Projects\Woorden teller\Woorden teller\obj\Debug\Woorden teller.csproj.GenerateResource.Cache
+c:\users\tryan\documents\visual studio 2013\Projects\Woorden teller\Woorden teller\obj\Debug\Woorden teller.exe
+c:\users\tryan\documents\visual studio 2013\Projects\Woorden teller\Woorden teller\obj\Debug\Woorden teller.pdb
