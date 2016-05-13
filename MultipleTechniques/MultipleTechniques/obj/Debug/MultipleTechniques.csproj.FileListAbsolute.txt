@@ -1,0 +1,10 @@
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\MultipleTechniques\bin\Debug\MultipleTechniques.exe
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\MultipleTechniques\bin\Debug\MultipleTechniques.pdb
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\MultipleTechniques\obj\Debug\MultipleTechniques.csprojResolveAssemblyReference.cache
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\MultipleTechniques\obj\Debug\MultipleTechniques.Form1.resources
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\MultipleTechniques\obj\Debug\MultipleTechniques.Properties.Resources.resources
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\MultipleTechniques\obj\Debug\MultipleTechniques.csproj.GenerateResource.Cache
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\MultipleTechniques\obj\Debug\MultipleTechniques.exe
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\MultipleTechniques\obj\Debug\MultipleTechniques.pdb
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\MultipleTechniques\bin\Debug\CC.dll
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\MultipleTechniques\bin\Debug\CC.pdb
