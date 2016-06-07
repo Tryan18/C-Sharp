@@ -1,0 +1,24 @@
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\Pit4DesignPatterns\bin\Debug\Pit4DesignPatterns.exe.config
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\Pit4DesignPatterns\bin\Debug\Pit4DesignPatterns.exe
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\Pit4DesignPatterns\bin\Debug\Pit4DesignPatterns.pdb
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\Pit4DesignPatterns\bin\Debug\TekenLibrary.dll
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\Pit4DesignPatterns\bin\Debug\TekenLibrary.pdb
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.csprojResolveAssemblyReference.cache
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.Form1.resources
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.Properties.Resources.resources
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.csproj.GenerateResource.Cache
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.exe
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.pdb
+C:\Users\bourfjj.0HIONB052\documents\visual studio 2013\Projects\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.FormTekstInfo.resources
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\Pit4DesignPatterns\bin\Debug\Pit4DesignPatterns.exe.config
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.exe
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.pdb
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\Pit4DesignPatterns\bin\Debug\Pit4DesignPatterns.exe
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\Pit4DesignPatterns\bin\Debug\Pit4DesignPatterns.pdb
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\Pit4DesignPatterns\bin\Debug\TekenLibrary.dll
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\Pit4DesignPatterns\bin\Debug\TekenLibrary.pdb
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.csprojResolveAssemblyReference.cache
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.Form1.resources
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.FormTekstInfo.resources
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.Properties.Resources.resources
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\Pit4DesignPatterns\obj\Debug\Pit4DesignPatterns.csproj.GenerateResource.Cache

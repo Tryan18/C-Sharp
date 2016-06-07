@@ -1,0 +1,10 @@
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\TekenLibrary\bin\Debug\TekenLibrary.dll
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\TekenLibrary\bin\Debug\TekenLibrary.pdb
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\TekenLibrary\obj\Debug\TekenLibrary.csprojResolveAssemblyReference.cache
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\TekenLibrary\obj\Debug\TekenLibrary.dll
+c:\users\bourfjj.0hionb052\documents\visual studio 2013\Projects\Pit4DesignPatterns\TekenLibrary\obj\Debug\TekenLibrary.pdb
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\TekenLibrary\bin\Debug\TekenLibrary.dll
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\TekenLibrary\bin\Debug\TekenLibrary.pdb
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\TekenLibrary\obj\Debug\TekenLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\TekenLibrary\obj\Debug\TekenLibrary.dll
+C:\Users\Boeie\Desktop\Pit4DesignPatterns\TekenLibrary\obj\Debug\TekenLibrary.pdb
