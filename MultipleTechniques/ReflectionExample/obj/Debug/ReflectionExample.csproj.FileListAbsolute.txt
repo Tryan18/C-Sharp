@@ -1,0 +1,4 @@
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\ReflectionExample\bin\Debug\ReflectionExample.dll
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\ReflectionExample\bin\Debug\ReflectionExample.pdb
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\ReflectionExample\obj\Debug\ReflectionExample.dll
+c:\users\boeie\documents\visual studio 2015\Projects\MultipleTechniques\ReflectionExample\obj\Debug\ReflectionExample.pdb

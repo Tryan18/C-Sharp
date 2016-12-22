@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TekenLibrary.CreateStrategy" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>CreateStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TekenLibrary.DeleteStrategy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>DeleteStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TekenLibrary.Ellips">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Ellips.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TekenLibrary.Figuur">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIEEQAAEAAAAAAAAEAAAARAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Figuur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TekenLibrary.Groep">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <AssociationLine Name="figuurtjes" Type="TekenLibrary.Figuur" ManuallyRouted="true">
+      <Path>
+        <Point X="2" Y="4.298" />
+        <Point X="3.158" Y="4.298" />
+        <Point X="3.158" Y="0.214" />
+        <Point X="5" Y="0.214" />
+        <Point X="5" Y="9.787" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIBEEAAAAAAAAAAAAEAAAAAABCAAgAAAAAAAEAAAAA=</HashCode>
+      <FileName>Groep.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="figuurtjes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TekenLibrary.Lijn">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Lijn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TekenLibrary.Observable" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TekenLibrary.Rechthoek">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Rechthoek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TekenLibrary.Tekening">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAUgAAAEAIARYAQAAAAAABQIAAEABQAQAAAAAAAEA=</HashCode>
+      <FileName>Tekening.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TekenLibrary.IStrategy" Collapsed="true">
+    <Position X="9.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TekenLibrary.Status" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Figuur.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
