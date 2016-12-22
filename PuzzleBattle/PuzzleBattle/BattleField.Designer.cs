@@ -61,6 +61,7 @@ namespace PuzzleBattle
             this.L_3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.L_4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // group_battlefield
@@ -115,11 +116,21 @@ namespace PuzzleBattle
             this.L_4.TabIndex = 2;
             this.L_4.Text = "4# of a kind = ";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 323);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
+            // 
             // BattleField
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(746, 484);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.L_3);
             this.Controls.Add(this.L_4);
             this.Controls.Add(this.L_5);
@@ -142,6 +153,7 @@ namespace PuzzleBattle
         private System.Windows.Forms.Label L_3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label L_4;
+        private System.Windows.Forms.Label label1;
 
     }
 }
